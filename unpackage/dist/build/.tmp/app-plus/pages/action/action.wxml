@@ -1,0 +1,1 @@
+<view><view class="logoContent"><image class="logo" src="http://photocdn.sohu.com/20130311/Img368359870.jpg"></image></view><view class="actionContent"><pic-news vue-id="1" bind:__l="__l"></pic-news></view></view>

@@ -1,0 +1,27 @@
+
+page {
+	background-color: red;
+}
+.logoContent {
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+}
+.logo {
+	width: 100%;
+	height: 200rpx;
+}
+.messageContent {
+	padding-top: 300rpx;
+}
+.searchContent {
+	padding: 25rpx 50rpx 25rpx 50rpx;
+}
+.searchContent input {
+	background-color: #CCCCCC;
+}
+.messageList {
+	display: block;
+	text-align: center;
+}
+

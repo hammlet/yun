@@ -1,0 +1,119 @@
+
+.navLogo {
+	width: 80rpx;
+	height: 80rpx;
+}
+.navSearch {
+	width: 40rpx;
+	height: 40rpx;
+	margin-top: 10rpx;
+}
+/deep/ uni-image>._img {
+	opacity: 1;
+}
+.navTitle {
+	color: #FFFFFF;
+	font-size: 40rpx;
+}
+.logoContent {
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+	height: 160rpx;
+	background-color: #048ABF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align:center;
+	-webkit-align-items:center;
+	    -ms-flex-align:center;
+	        align-items:center;
+	padding: 20rpx 20rpx 0 20rpx;
+}
+
+
+
+.homeNews {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	padding: 20rpx;
+	background-color: #ffffff;
+}
+.newsLogo {
+	width: 35%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding-left: 10rpx;
+}
+.newsLogo image {
+	width: 220rpx;
+	height: 210rpx;
+}
+.newsGroup {
+	width: 65%;
+	padding: 20rpx 20rpx 0 20rpx;
+}
+.newsText {
+	padding: 15rpx 30rpx 15rpx 10rpx;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	
+
+	
+	/* padding: 20upx; */
+	/* display: flex; */
+	/* flex-direction:column; */
+	/* justify-content:space-between; */
+	/* color:#000000; */
+}
+.newsPlay {
+	width: 25rpx;
+	height: 25rpx;
+	margin-right: 20rpx;
+}
+.news {
+	display: inline-block;
+}
+
+
+page {
+		background-color: #FFFFFF;
+}
+.logoContent {
+		position: fixed;
+		z-index: 99;
+		width: 100%;
+}
+.logo {
+		width: 100%;
+		height: 200rpx;
+}
+.actionContent {
+		padding-top: 200rpx;
+}
+

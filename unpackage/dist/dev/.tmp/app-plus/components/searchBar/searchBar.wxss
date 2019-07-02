@@ -1,0 +1,68 @@
+
+.navLogo {
+	width: 80rpx;
+	height: 80rpx;
+}
+.navSearch {
+	width: 40rpx;
+	height: 40rpx;
+	margin-top: 10rpx;
+}
+/deep/ uni-image>._img {
+	opacity: 1;
+}
+.navTitle {
+	color: #FFFFFF;
+	font-size: 40rpx;
+}
+.logoContent {
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+	height: 160rpx;
+	background-color: #048ABF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align:center;
+	-webkit-align-items:center;
+	    -ms-flex-align:center;
+	        align-items:center;
+	padding: 20rpx 20rpx 0 20rpx;
+}
+
+
+
+page {
+	background-color: #FFFFFF;
+	/* background-color: red; */
+}
+.messageContent {
+	padding-top: 160rpx;
+}
+.searchContent {
+	position: relative;
+	height: 150rpx;
+	background-color: red;
+	padding: 50rpx 50rpx 50rpx 50rpx;
+}
+.serachBar {
+	height: 70rpx;
+	background-color: #CCCCCC;
+	padding: 10rpx 10rpx 10rpx 60rpx;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+}
+.searchBarLogo {
+	position: absolute;
+	bottom:40rpx;
+	left:55rpx;
+	height:50rpx;
+	width:50rpx
+}
+

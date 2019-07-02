@@ -1,0 +1,22 @@
+
+.swiperPicWidth {
+	
+	/* height:100%; */
+	display: block;
+	margin: 0 auto;
+	width: 97%;
+	-webkit-border-radius: 10px;
+	        border-radius: 10px;
+	height: 350rpx;
+}
+.uni-padding-wrap {
+	padding: 20rpx 0 10rpx 0;
+	background-color: red;
+	/* height: 500upx; */
+}
+swiper {
+	height: 350rpx;
+}
+
+
+

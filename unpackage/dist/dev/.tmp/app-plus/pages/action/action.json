@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "titleNView": false,
+  "usingComponents": {
+    "navbar": "/components/navbar/navbar",
+    "pic-news": "/components/picnews/picnews",
+    "time-news": "/components/timeNews/timeNews"
+  }
+}

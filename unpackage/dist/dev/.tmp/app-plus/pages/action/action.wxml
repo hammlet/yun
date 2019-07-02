@@ -1,0 +1,1 @@
+<view><navbar vue-id="1" bind:__l="__l"></navbar><pic-news vue-id="2" bind:__l="__l"></pic-news><time-news vue-id="3" bind:__l="__l"></time-news></view>

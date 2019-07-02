@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/index/index",
+    "components/swiper/swiper",
+    "pages/map/map",
+    "pages/test/test",
+    "pages/map2/map2",
+    "pages/message/message",
+    "pages/action/action",
+    "pages/user/user",
+    "components/picnews/picnews",
+    "components/swiperMade/swiperMade",
+    "pages/user/login/login",
+    "pages/user/register/register"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/message/message",
+        "iconPath": "static/tabLogo.jpg",
+        "selectedIconPath": "static/tabLogo.jpg",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/action/action",
+        "iconPath": "static/tabLogo.jpg",
+        "selectedIconPath": "static/tabLogo.jpg",
+        "text": "活动"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabLogo.jpg",
+        "selectedIconPath": "static/tabLogo.jpg",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "iconPath": "static/tabLogo.jpg",
+        "selectedIconPath": "static/tabLogo.jpg",
+        "text": "地图"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/tabLogo.jpg",
+        "selectedIconPath": "static/tabLogo.jpg",
+        "text": "用户"
+      }
+    ]
+  },
+  "nvueCompiler": "weex",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "yun",
+  "compilerVersion": "2.0.1",
+  "usingComponents": {}
+}

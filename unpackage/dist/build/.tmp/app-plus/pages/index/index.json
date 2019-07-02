@@ -1,0 +1,11 @@
+{
+  "navigationStyle": "custom",
+  "titleNView": false,
+  "usingComponents": {
+    "tabs": "/components/tabs/tabs",
+    "tab-pane": "/components/tabs/tabPane",
+    "swiper-made": "/components/swiperMade/swiperMade",
+    "pic-news": "/components/picnews/picnews",
+    "time-news": "/components/timeNews"
+  }
+}

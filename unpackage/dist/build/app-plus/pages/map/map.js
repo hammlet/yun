@@ -1,0 +1,2 @@
+setCssToHead(["body { background-color: #FFFFFF; }\n.",[1],"logoContent { position: fixed; z-index: 99; width: 100%; }\n.",[1],"logo { width: 100%; height: ",[0,200],"; }\n",],undefined,{path:"./pages/map/map.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/map/map.wxml') } }));

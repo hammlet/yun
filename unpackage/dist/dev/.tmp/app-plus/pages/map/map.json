@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "default",
+  "titleNView": false,
+  "usingComponents": {
+    "navbar": "/components/navbar/navbar"
+  }
+}

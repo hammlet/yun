@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"swiperPicWidth { display: block; margin: 0 auto; width: 96%; -webkit-border-radius: 10px; border-radius: 10px; -webkit-box-shadow: 0px 6px 5px 0px #C3C3C4; box-shadow: 0px 6px 5px 0px #C3C3C4; }\n.",[1],"uni-padding-wrap { padding: ",[0,20]," 0 ",[0,0]," 0; }\nwx-swiper { height: ",[0,371],"; }\n",],undefined,{path:"./components/swiperMade/swiperMade.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./components/swiperMade/swiperMade.wxml') } }));

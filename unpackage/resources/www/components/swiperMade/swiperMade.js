@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"uni-bg-red { background-color: red; height:100% }\n.",[1],"uni-bg-green { background-color: green; height:100% }\n.",[1],"uni-bg-blue { background-color: blue; height:100% }\n.",[1],"swiperPicWidth { width: 100%; height:100%; }\n",],undefined,{path:"./components/swiperMade/swiperMade.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./components/swiperMade/swiperMade.wxml') } }));

@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "cmd-nav-bar": "/components/loginUser/cmd-nav-bar/cmd-nav-bar",
+    "cmd-page-body": "/components/loginUser/cmd-page-body/cmd-page-body",
+    "cmd-transition": "/components/loginUser/cmd-transition/cmd-transition",
+    "cmd-input": "/components/loginUser/cmd-input/cmd-input"
+  }
+}

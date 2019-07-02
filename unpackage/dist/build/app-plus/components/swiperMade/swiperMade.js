@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"swiperPicWidth { display: block; margin: 0 auto; width: 97%; -webkit-border-radius: 10px; border-radius: 10px; height: ",[0,350],"; }\n.",[1],"uni-padding-wrap { padding: ",[0,20]," 0 ",[0,10]," 0; background-color: red; }\nwx-swiper { height: ",[0,350],"; }\n",],undefined,{path:"./components/swiperMade/swiperMade.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./components/swiperMade/swiperMade.wxml') } }));

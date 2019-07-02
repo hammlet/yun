@@ -1,0 +1,1 @@
+<view class="messagePage"><navbar vue-id="1" bind:__l="__l"></navbar><search-bar vue-id="2" bind:__l="__l"></search-bar><view class="messageList">2314</view></view>

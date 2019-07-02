@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "titleNView": false,
+  "usingComponents": {
+    "navbar": "/components/navbar/navbar",
+    "search-bar": "/components/searchBar/searchBar"
+  }
+}

@@ -1,0 +1,50 @@
+
+.timeNewsGroup {
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-flex: row;
+	-webkit-flex: row;
+	    -ms-flex: row;
+	        flex: row;
+	/* border: 1px solid red; */
+	padding: 15rpx 10rpx 15rpx 20rpx;
+	margin-left: 30rpx;
+	margin-right: 60rpx;
+}
+.timeNewsTime {
+	width: 15%;
+	border-right:2px solid #5E5E5E;
+}
+.timeNewsBoder{
+	text-align: center;
+	padding: 10rpx;
+}
+.timeNewsContent {
+	padding: 5rpx 30rpx 0 30rpx;
+	width:80%;
+}
+.newsDay {
+	font-size: 35rpx;
+	line-height: 0.9;
+}
+.newsMonth {
+	font-size: 18rpx;
+}
+.addPic {
+	width: 30rpx;
+	height: 30rpx;
+	z-index: 999;
+}
+
+/* 动态class */
+.Add {
+	color: #048ABF;
+}
+.borderAdd{
+	border: 2px solid #000000;
+}
+
+

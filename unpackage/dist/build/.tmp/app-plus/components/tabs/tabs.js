@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/tabs/tabs"],{"12d7":function(t,n,a){"use strict";var e=a("bc52"),r=a.n(e);r.a},"8b0a":function(t,n,a){"use strict";a.r(n);var e=a("ff49"),r=a("d45c");for(var c in r)"default"!==c&&function(t){a.d(n,t,function(){return r[t]})}(c);a("12d7");var u=a("2877"),s=Object(u["a"])(r["default"],e["a"],e["b"],!1,null,null,null);n["default"]=s.exports},"8ce6":function(t,n,a){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var e={name:"Tabs",data:function(){return{id:"tab_0",start:0}},props:{TabList:{default:function(){return[]},type:Array},currentTab:{default:0,type:Number}},computed:{transformX:function(){var t=this.currentTab;return"translate3d(".concat(100*t,"%, 0px, 0px)")},transformXx:function(){var t=this.currentTab;return"translate3d(-".concat(100*t,"%, 0px, 0px)")}},methods:{tabChange:function(t){this.currentTab!=t&&(console.log("emit:".concat(t)," at components\\tabs\\tabs.vue:70"),this.$emit("tabs",t),this.id="tab_".concat(t))},touchstart:function(t){this.start=t.touches[0].clientX},touchend:function(t){var n=t.changedTouches[0].clientX;n-this.start>100&&this.currentTab>=1?this.tabChange(this.currentTab-1):this.start-n>100&&this.currentTab<this.TabList.length-1&&this.tabChange(this.currentTab+1)}}};n.default=e},bc52:function(t,n,a){},d45c:function(t,n,a){"use strict";a.r(n);var e=a("8ce6"),r=a.n(e);for(var c in e)"default"!==c&&function(t){a.d(n,t,function(){return e[t]})}(c);n["default"]=r.a},ff49:function(t,n,a){"use strict";var e=function(){var t=this,n=t.$createElement;t._self._c},r=[];a.d(n,"a",function(){return e}),a.d(n,"b",function(){return r})}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/tabs/tabs-create-component',
+    {
+        'components/tabs/tabs-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('6e42')['createComponent'](__webpack_require__("8b0a"))
+        })
+    },
+    [['components/tabs/tabs-create-component']]
+]);                

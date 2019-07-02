@@ -1,0 +1,63 @@
+
+.homeNews {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	padding: 20rpx;
+	background-color: #ffffff;
+}
+.newsLogo {
+	width: 35%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding-left: 10rpx;
+}
+.newsLogo image {
+	width: 120px;
+	height: 110px;
+}
+.newsGroup {
+	width: 65%;
+	padding: 20rpx 20rpx 0 20rpx;
+}
+.newsText {
+	padding: 15rpx 30rpx 15rpx 10rpx;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	
+
+	
+	/* padding: 20upx; */
+	/* display: flex; */
+	/* flex-direction:column; */
+	/* justify-content:space-between; */
+	/* color:#000000; */
+}
+.newsPlay {
+	width: 25rpx;
+	height: 25rpx;
+	margin-right: 20rpx;
+}
+.news {
+	display: inline-block;
+}
+
