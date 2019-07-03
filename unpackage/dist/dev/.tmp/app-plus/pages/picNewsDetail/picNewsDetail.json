@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "",
+  "navigationBarBackgroundColor": "#048ABF",
+  "navigationBarTextStyle": "white",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "",
+        "fontSrc": "/static/icon/share.ttf"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

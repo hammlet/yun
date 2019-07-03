@@ -1172,6 +1172,14 @@ function gz$gwx_9(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_9)return __WXML_GLOBAL__.ops_cached.$gwx_9
 __WXML_GLOBAL__.ops_cached.$gwx_9=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'__l'])
+Z([3,'1'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_9);return __WXML_GLOBAL__.ops_cached.$gwx_9
+}
+function gz$gwx_10(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_10)return __WXML_GLOBAL__.ops_cached.$gwx_10
+__WXML_GLOBAL__.ops_cached.$gwx_10=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
 Z([1,true])
 Z([3,'__e'])
 Z(z[0])
@@ -1189,12 +1197,6 @@ Z(z[10])
 Z([3,'swiper-item'])
 Z([[2,'=='],[[6],[[7],[3,'item']],[3,'type']],[1,'image']])
 Z([[2,'=='],[[6],[[7],[3,'item']],[3,'type']],[1,'video']])
-})(__WXML_GLOBAL__.ops_cached.$gwx_9);return __WXML_GLOBAL__.ops_cached.$gwx_9
-}
-function gz$gwx_10(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_10)return __WXML_GLOBAL__.ops_cached.$gwx_10
-__WXML_GLOBAL__.ops_cached.$gwx_10=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
 })(__WXML_GLOBAL__.ops_cached.$gwx_10);return __WXML_GLOBAL__.ops_cached.$gwx_10
 }
 function gz$gwx_11(){
@@ -1207,21 +1209,27 @@ function gz$gwx_12(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_12)return __WXML_GLOBAL__.ops_cached.$gwx_12
 __WXML_GLOBAL__.ops_cached.$gwx_12=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'__e'])
-Z(z[0])
-Z([3,'tab-pane-view'])
-Z([[4],[[5],[[5],[[4],[[5],[[5],[1,'touchstart']],[[4],[[5],[[4],[[5],[[5],[1,'touchstart']],[[4],[[5],[1,'$event']]]]]]]]]],[[4],[[5],[[5],[1,'touchend']],[[4],[[5],[[4],[[5],[[5],[1,'touchend']],[[4],[[5],[1,'$event']]]]]]]]]]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_12);return __WXML_GLOBAL__.ops_cached.$gwx_12
 }
 function gz$gwx_13(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_13)return __WXML_GLOBAL__.ops_cached.$gwx_13
 __WXML_GLOBAL__.ops_cached.$gwx_13=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'__e'])
+Z(z[0])
+Z([3,'tab-pane-view'])
+Z([[4],[[5],[[5],[[4],[[5],[[5],[1,'touchstart']],[[4],[[5],[[4],[[5],[[5],[1,'touchstart']],[[4],[[5],[1,'$event']]]]]]]]]],[[4],[[5],[[5],[1,'touchend']],[[4],[[5],[[4],[[5],[[5],[1,'touchend']],[[4],[[5],[1,'$event']]]]]]]]]]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_13);return __WXML_GLOBAL__.ops_cached.$gwx_13
 }
 function gz$gwx_14(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_14)return __WXML_GLOBAL__.ops_cached.$gwx_14
 __WXML_GLOBAL__.ops_cached.$gwx_14=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+})(__WXML_GLOBAL__.ops_cached.$gwx_14);return __WXML_GLOBAL__.ops_cached.$gwx_14
+}
+function gz$gwx_15(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_15)return __WXML_GLOBAL__.ops_cached.$gwx_15
+__WXML_GLOBAL__.ops_cached.$gwx_15=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'__l'])
 Z([3,'1'])
@@ -1229,11 +1237,11 @@ Z(z[0])
 Z([3,'2'])
 Z(z[0])
 Z([3,'3'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_14);return __WXML_GLOBAL__.ops_cached.$gwx_14
+})(__WXML_GLOBAL__.ops_cached.$gwx_15);return __WXML_GLOBAL__.ops_cached.$gwx_15
 }
-function gz$gwx_15(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_15)return __WXML_GLOBAL__.ops_cached.$gwx_15
-__WXML_GLOBAL__.ops_cached.$gwx_15=[];
+function gz$gwx_16(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_16)return __WXML_GLOBAL__.ops_cached.$gwx_16
+__WXML_GLOBAL__.ops_cached.$gwx_16=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'content'])
 Z([3,'__l'])
@@ -1271,42 +1279,48 @@ Z(z[9])
 Z(z[1])
 Z([[2,'+'],[[2,'+'],[1,'11'],[1,',']],[1,'2']])
 Z(z[9])
-})(__WXML_GLOBAL__.ops_cached.$gwx_15);return __WXML_GLOBAL__.ops_cached.$gwx_15
-}
-function gz$gwx_16(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_16)return __WXML_GLOBAL__.ops_cached.$gwx_16
-__WXML_GLOBAL__.ops_cached.$gwx_16=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'__l'])
-Z([3,'1'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_16);return __WXML_GLOBAL__.ops_cached.$gwx_16
 }
 function gz$gwx_17(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_17)return __WXML_GLOBAL__.ops_cached.$gwx_17
 __WXML_GLOBAL__.ops_cached.$gwx_17=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'__l'])
+Z([3,'1'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_17);return __WXML_GLOBAL__.ops_cached.$gwx_17
 }
 function gz$gwx_18(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_18)return __WXML_GLOBAL__.ops_cached.$gwx_18
 __WXML_GLOBAL__.ops_cached.$gwx_18=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'messagePage'])
-Z([3,'__l'])
-Z([3,'1'])
-Z(z[1])
-Z([3,'2'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_18);return __WXML_GLOBAL__.ops_cached.$gwx_18
 }
 function gz$gwx_19(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_19)return __WXML_GLOBAL__.ops_cached.$gwx_19
 __WXML_GLOBAL__.ops_cached.$gwx_19=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'messagePage'])
+Z([3,'__l'])
+Z([3,'1'])
+Z(z[1])
+Z([3,'2'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_19);return __WXML_GLOBAL__.ops_cached.$gwx_19
 }
 function gz$gwx_20(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_20)return __WXML_GLOBAL__.ops_cached.$gwx_20
 __WXML_GLOBAL__.ops_cached.$gwx_20=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+})(__WXML_GLOBAL__.ops_cached.$gwx_20);return __WXML_GLOBAL__.ops_cached.$gwx_20
+}
+function gz$gwx_21(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_21)return __WXML_GLOBAL__.ops_cached.$gwx_21
+__WXML_GLOBAL__.ops_cached.$gwx_21=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+})(__WXML_GLOBAL__.ops_cached.$gwx_21);return __WXML_GLOBAL__.ops_cached.$gwx_21
+}
+function gz$gwx_22(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_22)return __WXML_GLOBAL__.ops_cached.$gwx_22
+__WXML_GLOBAL__.ops_cached.$gwx_22=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'__l'])
 Z([3,'__e'])
@@ -1361,11 +1375,11 @@ Z([3,'请输入密码'])
 Z([3,'password'])
 Z([[6],[[7],[3,'account']],[3,'password']])
 Z([[2,'+'],[[2,'+'],[1,'8'],[1,',']],[1,'6']])
-})(__WXML_GLOBAL__.ops_cached.$gwx_20);return __WXML_GLOBAL__.ops_cached.$gwx_20
+})(__WXML_GLOBAL__.ops_cached.$gwx_22);return __WXML_GLOBAL__.ops_cached.$gwx_22
 }
-function gz$gwx_21(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_21)return __WXML_GLOBAL__.ops_cached.$gwx_21
-__WXML_GLOBAL__.ops_cached.$gwx_21=[];
+function gz$gwx_23(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_23)return __WXML_GLOBAL__.ops_cached.$gwx_23
+__WXML_GLOBAL__.ops_cached.$gwx_23=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'__l'])
 Z([3,'用户注册'])
@@ -1417,21 +1431,21 @@ Z([3,'请输入密码'])
 Z([3,'password'])
 Z([[6],[[7],[3,'account']],[3,'password']])
 Z([[2,'+'],[[2,'+'],[1,'8'],[1,',']],[1,'6']])
-})(__WXML_GLOBAL__.ops_cached.$gwx_21);return __WXML_GLOBAL__.ops_cached.$gwx_21
+})(__WXML_GLOBAL__.ops_cached.$gwx_23);return __WXML_GLOBAL__.ops_cached.$gwx_23
 }
-function gz$gwx_22(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_22)return __WXML_GLOBAL__.ops_cached.$gwx_22
-__WXML_GLOBAL__.ops_cached.$gwx_22=[];
+function gz$gwx_24(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_24)return __WXML_GLOBAL__.ops_cached.$gwx_24
+__WXML_GLOBAL__.ops_cached.$gwx_24=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'__l'])
 Z([3,'1'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_22);return __WXML_GLOBAL__.ops_cached.$gwx_22
+})(__WXML_GLOBAL__.ops_cached.$gwx_24);return __WXML_GLOBAL__.ops_cached.$gwx_24
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./components/loginUser/cmd-icon/cmd-icon.wxml','./components/loginUser/cmd-input/cmd-input.wxml','./components/loginUser/cmd-nav-bar/cmd-nav-bar.wxml','./components/loginUser/cmd-page-body/cmd-page-body.wxml','./components/loginUser/cmd-transition/cmd-transition.wxml','./components/navbar/navbar.wxml','./components/picnews/picnews.wxml','./components/searchBar/searchBar.wxml','./components/swiper/swiper.wxml','./components/swiperMade/swiperMade.wxml','./components/tabs/tabPane.wxml','./components/tabs/tabs.wxml','./components/timeNews/timeNews.wxml','./pages/action/action.wxml','./pages/index/index.wxml','./pages/map/map.wxml','./pages/map2/map2.wxml','./pages/message/message.wxml','./pages/test/test.wxml','./pages/user/login/login.wxml','./pages/user/register/register.wxml','./pages/user/user.wxml'];d_[x[0]]={}
+var x=['./components/loginUser/cmd-icon/cmd-icon.wxml','./components/loginUser/cmd-input/cmd-input.wxml','./components/loginUser/cmd-nav-bar/cmd-nav-bar.wxml','./components/loginUser/cmd-page-body/cmd-page-body.wxml','./components/loginUser/cmd-transition/cmd-transition.wxml','./components/navbar/navbar.wxml','./components/picnews/picnews.wxml','./components/searchBar/searchBar.wxml','./components/shareWindow/shareWindow.wxml','./components/swiper/swiper.wxml','./components/swiperMade/swiperMade.wxml','./components/tabs/tabPane.wxml','./components/tabs/tabs.wxml','./components/timeNews/timeNews.wxml','./pages/action/action.wxml','./pages/index/index.wxml','./pages/map/map.wxml','./pages/map2/map2.wxml','./pages/message/message.wxml','./pages/picNewsDetail/picNewsDetail.wxml','./pages/test/test.wxml','./pages/user/login/login.wxml','./pages/user/register/register.wxml','./pages/user/user.wxml'];d_[x[0]]={}
 var m0=function(e,s,r,gg){
 var z=gz$gwx_1()
 return r
@@ -1582,27 +1596,7 @@ e_[x[7]]={f:m7,j:[],i:[],ti:[],ic:[]}
 d_[x[8]]={}
 var m8=function(e,s,r,gg){
 var z=gz$gwx_9()
-var oBB=_mz(z,'swiper',['autoplay',0,'bindchange',1,'circular',1,'class',2,'data-event-opts',3,'duration',4,'indicatorActiveColor',5,'indicatorColor',6,'indicatorDots',7,'interval',8],[],e,s,gg)
-var lCB=_v()
-_(oBB,lCB)
-var aDB=function(eFB,tEB,bGB,gg){
-var xIB=_n('view')
-_rz(z,xIB,'class',14,eFB,tEB,gg)
-var oJB=_v()
-_(xIB,oJB)
-if(_oz(z,15,eFB,tEB,gg)){oJB.wxVkey=1
-}
-var fKB=_v()
-_(xIB,fKB)
-if(_oz(z,16,eFB,tEB,gg)){fKB.wxVkey=1
-}
-oJB.wxXCkey=1
-fKB.wxXCkey=1
-_(bGB,xIB)
-return bGB
-}
-lCB.wxXCkey=2
-_2z(z,12,aDB,e,s,gg,lCB,'item','index','index')
+var oBB=_mz(z,'news-detail',['bind:__l',0,'vueId',1],[],e,s,gg)
 _(r,oBB)
 return r
 }
@@ -1610,23 +1604,41 @@ e_[x[8]]={f:m8,j:[],i:[],ti:[],ic:[]}
 d_[x[9]]={}
 var m9=function(e,s,r,gg){
 var z=gz$gwx_10()
+var aDB=_mz(z,'swiper',['autoplay',0,'bindchange',1,'circular',1,'class',2,'data-event-opts',3,'duration',4,'indicatorActiveColor',5,'indicatorColor',6,'indicatorDots',7,'interval',8],[],e,s,gg)
+var tEB=_v()
+_(aDB,tEB)
+var eFB=function(oHB,bGB,xIB,gg){
+var fKB=_n('view')
+_rz(z,fKB,'class',14,oHB,bGB,gg)
+var cLB=_v()
+_(fKB,cLB)
+if(_oz(z,15,oHB,bGB,gg)){cLB.wxVkey=1
+}
+var hMB=_v()
+_(fKB,hMB)
+if(_oz(z,16,oHB,bGB,gg)){hMB.wxVkey=1
+}
+cLB.wxXCkey=1
+hMB.wxXCkey=1
+_(xIB,fKB)
+return xIB
+}
+tEB.wxXCkey=2
+_2z(z,12,eFB,e,s,gg,tEB,'item','index','index')
+_(r,aDB)
 return r
 }
 e_[x[9]]={f:m9,j:[],i:[],ti:[],ic:[]}
 d_[x[10]]={}
 var m10=function(e,s,r,gg){
 var z=gz$gwx_11()
-var oNB=_n('slot')
-_(r,oNB)
 return r
 }
 e_[x[10]]={f:m10,j:[],i:[],ti:[],ic:[]}
 d_[x[11]]={}
 var m11=function(e,s,r,gg){
 var z=gz$gwx_12()
-var oPB=_mz(z,'view',['bindtouchend',0,'bindtouchstart',1,'class',1,'data-event-opts',2],[],e,s,gg)
-var lQB=_n('slot')
-_(oPB,lQB)
+var oPB=_n('slot')
 _(r,oPB)
 return r
 }
@@ -1634,173 +1646,189 @@ e_[x[11]]={f:m11,j:[],i:[],ti:[],ic:[]}
 d_[x[12]]={}
 var m12=function(e,s,r,gg){
 var z=gz$gwx_13()
+var aRB=_mz(z,'view',['bindtouchend',0,'bindtouchstart',1,'class',1,'data-event-opts',2],[],e,s,gg)
+var tSB=_n('slot')
+_(aRB,tSB)
+_(r,aRB)
 return r
 }
 e_[x[12]]={f:m12,j:[],i:[],ti:[],ic:[]}
 d_[x[13]]={}
 var m13=function(e,s,r,gg){
 var z=gz$gwx_14()
-var eTB=_n('view')
-var bUB=_mz(z,'navbar',['bind:__l',0,'vueId',1],[],e,s,gg)
-_(eTB,bUB)
-var oVB=_mz(z,'pic-news',['bind:__l',2,'vueId',1],[],e,s,gg)
-_(eTB,oVB)
-var xWB=_mz(z,'time-news',['bind:__l',4,'vueId',1],[],e,s,gg)
-_(eTB,xWB)
-_(r,eTB)
 return r
 }
 e_[x[13]]={f:m13,j:[],i:[],ti:[],ic:[]}
 d_[x[14]]={}
 var m14=function(e,s,r,gg){
 var z=gz$gwx_15()
-var fYB=_n('view')
-_rz(z,fYB,'class',0,e,s,gg)
-var cZB=_mz(z,'navbar',['bind:__l',1,'vueId',1],[],e,s,gg)
-_(fYB,cZB)
-var h1B=_mz(z,'tabs',['TabList',3,'bind:__l',1,'bind:tabs',2,'currentTab',3,'data-event-opts',4,'vueId',5,'vueSlots',6],[],e,s,gg)
-var o2B=_mz(z,'tab-pane',['bind:__l',10,'vueId',1,'vueSlots',2],[],e,s,gg)
-var c3B=_mz(z,'swiper-made',['bind:__l',13,'swiperPic',1,'vueId',2],[],e,s,gg)
-_(o2B,c3B)
-var o4B=_mz(z,'pic-news',['bind:__l',16,'newsPic',1,'vueId',2],[],e,s,gg)
-_(o2B,o4B)
-var l5B=_mz(z,'time-news',['bind:__l',19,'vueId',1],[],e,s,gg)
-_(o2B,l5B)
-_(h1B,o2B)
-var a6B=_mz(z,'tab-pane',['bind:__l',21,'vueId',1,'vueSlots',2],[],e,s,gg)
-_(h1B,a6B)
-var t7B=_mz(z,'tab-pane',['bind:__l',24,'vueId',1,'vueSlots',2],[],e,s,gg)
-_(h1B,t7B)
-var e8B=_mz(z,'tab-pane',['bind:__l',27,'vueId',1,'vueSlots',2],[],e,s,gg)
-_(h1B,e8B)
-var b9B=_mz(z,'tab-pane',['bind:__l',30,'vueId',1,'vueSlots',2],[],e,s,gg)
-_(h1B,b9B)
-var o0B=_mz(z,'tab-pane',['bind:__l',33,'vueId',1,'vueSlots',2],[],e,s,gg)
-_(h1B,o0B)
-_(fYB,h1B)
-_(r,fYB)
+var oVB=_n('view')
+var xWB=_mz(z,'navbar',['bind:__l',0,'vueId',1],[],e,s,gg)
+_(oVB,xWB)
+var oXB=_mz(z,'pic-news',['bind:__l',2,'vueId',1],[],e,s,gg)
+_(oVB,oXB)
+var fYB=_mz(z,'time-news',['bind:__l',4,'vueId',1],[],e,s,gg)
+_(oVB,fYB)
+_(r,oVB)
 return r
 }
 e_[x[14]]={f:m14,j:[],i:[],ti:[],ic:[]}
 d_[x[15]]={}
 var m15=function(e,s,r,gg){
 var z=gz$gwx_16()
-var oBC=_mz(z,'navbar',['bind:__l',0,'vueId',1],[],e,s,gg)
-_(r,oBC)
+var h1B=_n('view')
+_rz(z,h1B,'class',0,e,s,gg)
+var o2B=_mz(z,'navbar',['bind:__l',1,'vueId',1],[],e,s,gg)
+_(h1B,o2B)
+var c3B=_mz(z,'tabs',['TabList',3,'bind:__l',1,'bind:tabs',2,'currentTab',3,'data-event-opts',4,'vueId',5,'vueSlots',6],[],e,s,gg)
+var o4B=_mz(z,'tab-pane',['bind:__l',10,'vueId',1,'vueSlots',2],[],e,s,gg)
+var l5B=_mz(z,'swiper-made',['bind:__l',13,'swiperPic',1,'vueId',2],[],e,s,gg)
+_(o4B,l5B)
+var a6B=_mz(z,'pic-news',['bind:__l',16,'newsPic',1,'vueId',2],[],e,s,gg)
+_(o4B,a6B)
+var t7B=_mz(z,'time-news',['bind:__l',19,'vueId',1],[],e,s,gg)
+_(o4B,t7B)
+_(c3B,o4B)
+var e8B=_mz(z,'tab-pane',['bind:__l',21,'vueId',1,'vueSlots',2],[],e,s,gg)
+_(c3B,e8B)
+var b9B=_mz(z,'tab-pane',['bind:__l',24,'vueId',1,'vueSlots',2],[],e,s,gg)
+_(c3B,b9B)
+var o0B=_mz(z,'tab-pane',['bind:__l',27,'vueId',1,'vueSlots',2],[],e,s,gg)
+_(c3B,o0B)
+var xAC=_mz(z,'tab-pane',['bind:__l',30,'vueId',1,'vueSlots',2],[],e,s,gg)
+_(c3B,xAC)
+var oBC=_mz(z,'tab-pane',['bind:__l',33,'vueId',1,'vueSlots',2],[],e,s,gg)
+_(c3B,oBC)
+_(h1B,c3B)
+_(r,h1B)
 return r
 }
 e_[x[15]]={f:m15,j:[],i:[],ti:[],ic:[]}
 d_[x[16]]={}
 var m16=function(e,s,r,gg){
 var z=gz$gwx_17()
+var cDC=_mz(z,'navbar',['bind:__l',0,'vueId',1],[],e,s,gg)
+_(r,cDC)
 return r
 }
 e_[x[16]]={f:m16,j:[],i:[],ti:[],ic:[]}
 d_[x[17]]={}
 var m17=function(e,s,r,gg){
 var z=gz$gwx_18()
-var hEC=_n('view')
-_rz(z,hEC,'class',0,e,s,gg)
-var oFC=_mz(z,'navbar',['bind:__l',1,'vueId',1],[],e,s,gg)
-_(hEC,oFC)
-var cGC=_mz(z,'search-bar',['bind:__l',3,'vueId',1],[],e,s,gg)
-_(hEC,cGC)
-_(r,hEC)
 return r
 }
 e_[x[17]]={f:m17,j:[],i:[],ti:[],ic:[]}
 d_[x[18]]={}
 var m18=function(e,s,r,gg){
 var z=gz$gwx_19()
+var cGC=_n('view')
+_rz(z,cGC,'class',0,e,s,gg)
+var oHC=_mz(z,'navbar',['bind:__l',1,'vueId',1],[],e,s,gg)
+_(cGC,oHC)
+var lIC=_mz(z,'search-bar',['bind:__l',3,'vueId',1],[],e,s,gg)
+_(cGC,lIC)
+_(r,cGC)
 return r
 }
 e_[x[18]]={f:m18,j:[],i:[],ti:[],ic:[]}
 d_[x[19]]={}
 var m19=function(e,s,r,gg){
 var z=gz$gwx_20()
-var aJC=_n('view')
-var tKC=_mz(z,'cmd-nav-bar',['back',-1,'bind:__l',0,'bind:rightText',1,'data-event-opts',1,'rightText',2,'title',3,'vueId',4],[],e,s,gg)
-_(aJC,tKC)
-var eLC=_mz(z,'cmd-page-body',['bind:__l',6,'type',1,'vueId',2,'vueSlots',3],[],e,s,gg)
-var bMC=_n('view')
-_rz(z,bMC,'class',10,e,s,gg)
-var oNC=_v()
-_(bMC,oNC)
-if(_oz(z,11,e,s,gg)){oNC.wxVkey=1
-var oPC=_mz(z,'cmd-transition',['bind:__l',12,'name',1,'vueId',2,'vueSlots',3],[],e,s,gg)
-var fQC=_mz(z,'cmd-input',['focus',-1,'bind:__l',16,'bind:input',1,'data-event-opts',2,'maxlength',3,'placeholder',4,'type',5,'value',6,'vueId',7],[],e,s,gg)
-_(oPC,fQC)
-var cRC=_mz(z,'cmd-input',['bind:__l',24,'bind:input',1,'data-event-opts',2,'maxlength',3,'placeholder',4,'type',5,'value',6,'vueId',7],[],e,s,gg)
-_(oPC,cRC)
-_(oNC,oPC)
-}
-var xOC=_v()
-_(bMC,xOC)
-if(_oz(z,32,e,s,gg)){xOC.wxVkey=1
-var hSC=_mz(z,'cmd-transition',['bind:__l',33,'name',1,'vueId',2,'vueSlots',3],[],e,s,gg)
-var oTC=_mz(z,'cmd-input',['focus',-1,'bind:__l',37,'bind:input',1,'data-event-opts',2,'maxlength',3,'placeholder',4,'type',5,'value',6,'vueId',7],[],e,s,gg)
-_(hSC,oTC)
-var cUC=_mz(z,'cmd-input',['displayable',-1,'bind:__l',45,'bind:input',1,'data-event-opts',2,'maxlength',3,'placeholder',4,'type',5,'value',6,'vueId',7],[],e,s,gg)
-_(hSC,cUC)
-_(xOC,hSC)
-}
-oNC.wxXCkey=1
-oNC.wxXCkey=3
-xOC.wxXCkey=1
-xOC.wxXCkey=3
-_(eLC,bMC)
-_(aJC,eLC)
-_(r,aJC)
 return r
 }
 e_[x[19]]={f:m19,j:[],i:[],ti:[],ic:[]}
 d_[x[20]]={}
 var m20=function(e,s,r,gg){
 var z=gz$gwx_21()
-var lWC=_n('view')
-var aXC=_mz(z,'cmd-nav-bar',['back',-1,'bind:__l',0,'title',1,'vueId',1],[],e,s,gg)
-_(lWC,aXC)
-var tYC=_mz(z,'cmd-page-body',['bind:__l',3,'type',1,'vueId',2,'vueSlots',3],[],e,s,gg)
-var eZC=_n('view')
-_rz(z,eZC,'class',7,e,s,gg)
-var b1C=_v()
-_(eZC,b1C)
-if(_oz(z,8,e,s,gg)){b1C.wxVkey=1
-var x3C=_mz(z,'cmd-transition',['bind:__l',9,'name',1,'vueId',2,'vueSlots',3],[],e,s,gg)
-var o4C=_mz(z,'cmd-input',['focus',-1,'bind:__l',13,'bind:input',1,'data-event-opts',2,'maxlength',3,'placeholder',4,'type',5,'value',6,'vueId',7],[],e,s,gg)
-_(x3C,o4C)
-var f5C=_mz(z,'cmd-input',['bind:__l',21,'bind:input',1,'data-event-opts',2,'maxlength',3,'placeholder',4,'type',5,'value',6,'vueId',7],[],e,s,gg)
-_(x3C,f5C)
-_(b1C,x3C)
-}
-var o2C=_v()
-_(eZC,o2C)
-if(_oz(z,29,e,s,gg)){o2C.wxVkey=1
-var c6C=_mz(z,'cmd-transition',['bind:__l',30,'name',1,'vueId',2,'vueSlots',3],[],e,s,gg)
-var h7C=_mz(z,'cmd-input',['focus',-1,'bind:__l',34,'bind:input',1,'data-event-opts',2,'maxlength',3,'placeholder',4,'type',5,'value',6,'vueId',7],[],e,s,gg)
-_(c6C,h7C)
-var o8C=_mz(z,'cmd-input',['displayable',-1,'bind:__l',42,'bind:input',1,'data-event-opts',2,'maxlength',3,'placeholder',4,'type',5,'value',6,'vueId',7],[],e,s,gg)
-_(c6C,o8C)
-_(o2C,c6C)
-}
-b1C.wxXCkey=1
-b1C.wxXCkey=3
-o2C.wxXCkey=1
-o2C.wxXCkey=3
-_(tYC,eZC)
-_(lWC,tYC)
-_(r,lWC)
 return r
 }
 e_[x[20]]={f:m20,j:[],i:[],ti:[],ic:[]}
 d_[x[21]]={}
 var m21=function(e,s,r,gg){
 var z=gz$gwx_22()
-var o0C=_mz(z,'swiper-made',['bind:__l',0,'vueId',1],[],e,s,gg)
-_(r,o0C)
+var bMC=_n('view')
+var oNC=_mz(z,'cmd-nav-bar',['back',-1,'bind:__l',0,'bind:rightText',1,'data-event-opts',1,'rightText',2,'title',3,'vueId',4],[],e,s,gg)
+_(bMC,oNC)
+var xOC=_mz(z,'cmd-page-body',['bind:__l',6,'type',1,'vueId',2,'vueSlots',3],[],e,s,gg)
+var oPC=_n('view')
+_rz(z,oPC,'class',10,e,s,gg)
+var fQC=_v()
+_(oPC,fQC)
+if(_oz(z,11,e,s,gg)){fQC.wxVkey=1
+var hSC=_mz(z,'cmd-transition',['bind:__l',12,'name',1,'vueId',2,'vueSlots',3],[],e,s,gg)
+var oTC=_mz(z,'cmd-input',['focus',-1,'bind:__l',16,'bind:input',1,'data-event-opts',2,'maxlength',3,'placeholder',4,'type',5,'value',6,'vueId',7],[],e,s,gg)
+_(hSC,oTC)
+var cUC=_mz(z,'cmd-input',['bind:__l',24,'bind:input',1,'data-event-opts',2,'maxlength',3,'placeholder',4,'type',5,'value',6,'vueId',7],[],e,s,gg)
+_(hSC,cUC)
+_(fQC,hSC)
+}
+var cRC=_v()
+_(oPC,cRC)
+if(_oz(z,32,e,s,gg)){cRC.wxVkey=1
+var oVC=_mz(z,'cmd-transition',['bind:__l',33,'name',1,'vueId',2,'vueSlots',3],[],e,s,gg)
+var lWC=_mz(z,'cmd-input',['focus',-1,'bind:__l',37,'bind:input',1,'data-event-opts',2,'maxlength',3,'placeholder',4,'type',5,'value',6,'vueId',7],[],e,s,gg)
+_(oVC,lWC)
+var aXC=_mz(z,'cmd-input',['displayable',-1,'bind:__l',45,'bind:input',1,'data-event-opts',2,'maxlength',3,'placeholder',4,'type',5,'value',6,'vueId',7],[],e,s,gg)
+_(oVC,aXC)
+_(cRC,oVC)
+}
+fQC.wxXCkey=1
+fQC.wxXCkey=3
+cRC.wxXCkey=1
+cRC.wxXCkey=3
+_(xOC,oPC)
+_(bMC,xOC)
+_(r,bMC)
 return r
 }
 e_[x[21]]={f:m21,j:[],i:[],ti:[],ic:[]}
+d_[x[22]]={}
+var m22=function(e,s,r,gg){
+var z=gz$gwx_23()
+var eZC=_n('view')
+var b1C=_mz(z,'cmd-nav-bar',['back',-1,'bind:__l',0,'title',1,'vueId',1],[],e,s,gg)
+_(eZC,b1C)
+var o2C=_mz(z,'cmd-page-body',['bind:__l',3,'type',1,'vueId',2,'vueSlots',3],[],e,s,gg)
+var x3C=_n('view')
+_rz(z,x3C,'class',7,e,s,gg)
+var o4C=_v()
+_(x3C,o4C)
+if(_oz(z,8,e,s,gg)){o4C.wxVkey=1
+var c6C=_mz(z,'cmd-transition',['bind:__l',9,'name',1,'vueId',2,'vueSlots',3],[],e,s,gg)
+var h7C=_mz(z,'cmd-input',['focus',-1,'bind:__l',13,'bind:input',1,'data-event-opts',2,'maxlength',3,'placeholder',4,'type',5,'value',6,'vueId',7],[],e,s,gg)
+_(c6C,h7C)
+var o8C=_mz(z,'cmd-input',['bind:__l',21,'bind:input',1,'data-event-opts',2,'maxlength',3,'placeholder',4,'type',5,'value',6,'vueId',7],[],e,s,gg)
+_(c6C,o8C)
+_(o4C,c6C)
+}
+var f5C=_v()
+_(x3C,f5C)
+if(_oz(z,29,e,s,gg)){f5C.wxVkey=1
+var c9C=_mz(z,'cmd-transition',['bind:__l',30,'name',1,'vueId',2,'vueSlots',3],[],e,s,gg)
+var o0C=_mz(z,'cmd-input',['focus',-1,'bind:__l',34,'bind:input',1,'data-event-opts',2,'maxlength',3,'placeholder',4,'type',5,'value',6,'vueId',7],[],e,s,gg)
+_(c9C,o0C)
+var lAD=_mz(z,'cmd-input',['displayable',-1,'bind:__l',42,'bind:input',1,'data-event-opts',2,'maxlength',3,'placeholder',4,'type',5,'value',6,'vueId',7],[],e,s,gg)
+_(c9C,lAD)
+_(f5C,c9C)
+}
+o4C.wxXCkey=1
+o4C.wxXCkey=3
+f5C.wxXCkey=1
+f5C.wxXCkey=3
+_(o2C,x3C)
+_(eZC,o2C)
+_(r,eZC)
+return r
+}
+e_[x[22]]={f:m22,j:[],i:[],ti:[],ic:[]}
+d_[x[23]]={}
+var m23=function(e,s,r,gg){
+var z=gz$gwx_24()
+var tCD=_mz(z,'swiper-made',['bind:__l',0,'vueId',1],[],e,s,gg)
+_(r,tCD)
+return r
+}
+e_[x[23]]={f:m23,j:[],i:[],ti:[],ic:[]}
 if(path&&e_[path]){
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]
 var main=e_[path].f
@@ -1818,7 +1846,7 @@ return root;
 
 
 
-__wxAppCode__['app.json']={"pages":["pages/index/index","components/swiper/swiper","pages/map/map","pages/test/test","pages/map2/map2","pages/message/message","pages/action/action","pages/user/user","components/picnews/picnews","components/swiperMade/swiperMade","pages/user/login/login","pages/user/register/register","components/navbar/navbar","components/searchBar/searchBar"],"subPackages":[],"window":{"navigationBarTextStyle":"black","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"},"tabBar":{"color":"#7A7E83","selectedColor":"#048ABF","borderStyle":"black","backgroundColor":"#E0E0E0","list":[{"pagePath":"pages/message/message","iconPath":"/static/tabbar/message.png","selectedIconPath":"/static/tabbar/message2.png","text":"消息"},{"pagePath":"pages/action/action","iconPath":"/static/tabbar/action.png","selectedIconPath":"/static/tabbar/action2.png","text":"活动"},{"pagePath":"pages/index/index","iconPath":"/static/tabbar/home.png","selectedIconPath":"/static/tabbar/home2.png","text":"首页"},{"pagePath":"pages/map/map","iconPath":"/static/tabbar/map.png","selectedIconPath":"/static/tabbar/map2.png","text":"地图"},{"pagePath":"pages/user/user","iconPath":"/static/tabbar/user.png","selectedIconPath":"/static/tabbar/user2.png","text":"用户"}]},"nvueCompiler":"weex","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"appname":"yun","compilerVersion":"2.0.1","usingComponents":{}};
+__wxAppCode__['app.json']={"pages":["pages/index/index","components/swiper/swiper","pages/map/map","pages/test/test","pages/map2/map2","pages/message/message","pages/action/action","pages/user/user","components/picnews/picnews","components/swiperMade/swiperMade","pages/user/login/login","pages/user/register/register","components/navbar/navbar","components/searchBar/searchBar","pages/picNewsDetail/picNewsDetail","components/shareWindow/shareWindow"],"subPackages":[],"window":{"navigationBarTextStyle":"black","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"},"tabBar":{"color":"#7A7E83","selectedColor":"#048ABF","borderStyle":"black","backgroundColor":"#E0E0E0","list":[{"pagePath":"pages/message/message","iconPath":"/static/tabbar/message.png","selectedIconPath":"/static/tabbar/message2.png","text":"消息"},{"pagePath":"pages/action/action","iconPath":"/static/tabbar/action.png","selectedIconPath":"/static/tabbar/action2.png","text":"活动"},{"pagePath":"pages/index/index","iconPath":"/static/tabbar/home.png","selectedIconPath":"/static/tabbar/home2.png","text":"首页"},{"pagePath":"pages/map/map","iconPath":"/static/tabbar/map.png","selectedIconPath":"/static/tabbar/map2.png","text":"地图"},{"pagePath":"pages/user/user","iconPath":"/static/tabbar/user.png","selectedIconPath":"/static/tabbar/user2.png","text":"用户"}]},"nvueCompiler":"weex","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"appname":"yun","compilerVersion":"2.0.1","usingComponents":{}};
 __wxAppCode__['app.wxml']=$gwx('./app.wxml');
 
 __wxAppCode__['components/loginUser/cmd-icon/cmd-icon.json']={"usingComponents":{},"component":true};
@@ -1844,6 +1872,9 @@ __wxAppCode__['components/picnews/picnews.wxml']=$gwx('./components/picnews/picn
 
 __wxAppCode__['components/searchBar/searchBar.json']={"usingComponents":{"navbar":"/components/navbar/navbar"}};
 __wxAppCode__['components/searchBar/searchBar.wxml']=$gwx('./components/searchBar/searchBar.wxml');
+
+__wxAppCode__['components/shareWindow/shareWindow.json']={"navigationBarTitleText":"","navigationBarBackgroundColor":"#048ABF","navigationBarTextStyle":"white","titleNView":{"buttons":[{"text":"","fontSrc":"/static/icon/share.ttf"}]},"usingComponents":{"news-detail":"/pages/picNewsDetail/picNewsDetail"}};
+__wxAppCode__['components/shareWindow/shareWindow.wxml']=$gwx('./components/shareWindow/shareWindow.wxml');
 
 __wxAppCode__['components/swiper/swiper.json']={"navigationStyle":"custom","usingComponents":{}};
 __wxAppCode__['components/swiper/swiper.wxml']=$gwx('./components/swiper/swiper.wxml');
@@ -1874,6 +1905,9 @@ __wxAppCode__['pages/map2/map2.wxml']=$gwx('./pages/map2/map2.wxml');
 
 __wxAppCode__['pages/message/message.json']={"navigationStyle":"custom","titleNView":false,"usingComponents":{"navbar":"/components/navbar/navbar","search-bar":"/components/searchBar/searchBar"}};
 __wxAppCode__['pages/message/message.wxml']=$gwx('./pages/message/message.wxml');
+
+__wxAppCode__['pages/picNewsDetail/picNewsDetail.json']={"navigationBarTitleText":"","navigationBarBackgroundColor":"#048ABF","navigationBarTextStyle":"white","titleNView":{"buttons":[{"text":"","fontSrc":"/static/icon/share.ttf"}]},"usingComponents":{}};
+__wxAppCode__['pages/picNewsDetail/picNewsDetail.wxml']=$gwx('./pages/picNewsDetail/picNewsDetail.wxml');
 
 __wxAppCode__['pages/test/test.json']={"usingComponents":{}};
 __wxAppCode__['pages/test/test.wxml']=$gwx('./pages/test/test.wxml');
@@ -9623,6 +9657,23 @@ createPage(_searchBar.default);
 
 /***/ }),
 
+/***/ "D:\\project\\yun\\main.js?{\"page\":\"components%2FshareWindow%2FshareWindow\"}":
+/*!********************************************************************************!*\
+  !*** D:/project/yun/main.js?{"page":"components%2FshareWindow%2FshareWindow"} ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\project\\yun\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _shareWindow = _interopRequireDefault(__webpack_require__(/*! ./components/shareWindow/shareWindow.vue */ "D:\\project\\yun\\components\\shareWindow\\shareWindow.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_shareWindow.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["createPage"]))
+
+/***/ }),
+
 /***/ "D:\\project\\yun\\main.js?{\"page\":\"components%2Fswiper%2Fswiper\"}":
 /*!**********************************************************************!*\
   !*** D:/project/yun/main.js?{"page":"components%2Fswiper%2Fswiper"} ***!
@@ -9738,6 +9789,23 @@ createPage(_map.default);
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
 var _message = _interopRequireDefault(__webpack_require__(/*! ./pages/message/message.vue */ "D:\\project\\yun\\pages\\message\\message.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 createPage(_message.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "D:\\project\\yun\\main.js?{\"page\":\"pages%2FpicNewsDetail%2FpicNewsDetail\"}":
+/*!*******************************************************************************!*\
+  !*** D:/project/yun/main.js?{"page":"pages%2FpicNewsDetail%2FpicNewsDetail"} ***!
+  \*******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\project\\yun\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _picNewsDetail = _interopRequireDefault(__webpack_require__(/*! ./pages/picNewsDetail/picNewsDetail.vue */ "D:\\project\\yun\\pages\\picNewsDetail\\picNewsDetail.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_picNewsDetail.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["createPage"]))
 
 /***/ }),
@@ -12522,7 +12590,7 @@ var _default =
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;} //
 //
 //
 //
@@ -12541,12 +12609,40 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 //
 //
 //
-var _default =
-{
+//
+var _default = _defineProperty({
+
   data: function data() {
     return {
-      newslist: ['123313131313131', '吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱',
-      '333333333333333333333', '44444444444444444', '55555555555555555', '6666666666666666666', '7777777777777777'] };
+      newslist: [{
+        id: 1,
+        title: '中共河口区纪委监委机关成立党员大会召开' },
+
+
+      {
+        id: 2,
+        title: '中国共产党东营市河口区纪委监委机关委员会成立' },
+
+      {
+        id: 3,
+        title: '市督导组来我区督察中央生态环境保护监督整改工作' },
+
+      {
+        id: 4,
+        title: '中共河口区纪委监委机关成立党员大会召开' },
+
+      {
+        id: 5,
+        title: '山东河口蓝色经济开发区招商引资政策' },
+
+      {
+        id: 6,
+        title: '"双招双引"培育新功能推动园区高质量发展' },
+
+      {
+        id: 7,
+        title: '河口区招商引资优惠奖励十条' }] };
+
 
 
   },
@@ -12559,7 +12655,17 @@ var _default =
   computed: {
     newsP: function newsP() {
       return this.newsPic;
-    } } };exports.default = _default;
+    } } }, "methods",
+
+
+{
+  goDeail: function goDeail(id) {
+    uni.navigateTo({
+      // url: `/pages/picNewsDetail/picNewsDetail?id=${id}`
+      url: "/components/shareWindow/shareWindow?id=".concat(id) });
+
+  } });exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]))
 
 /***/ }),
 
@@ -14826,7 +14932,7 @@ var _default =
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;} //
 //
 //
 //
@@ -14845,12 +14951,40 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 //
 //
 //
-var _default =
-{
+//
+var _default = _defineProperty({
+
   data: function data() {
     return {
-      newslist: ['123313131313131', '吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱',
-      '333333333333333333333', '44444444444444444', '55555555555555555', '6666666666666666666', '7777777777777777'] };
+      newslist: [{
+        id: 1,
+        title: '中共河口区纪委监委机关成立党员大会召开' },
+
+
+      {
+        id: 2,
+        title: '中国共产党东营市河口区纪委监委机关委员会成立' },
+
+      {
+        id: 3,
+        title: '市督导组来我区督察中央生态环境保护监督整改工作' },
+
+      {
+        id: 4,
+        title: '中共河口区纪委监委机关成立党员大会召开' },
+
+      {
+        id: 5,
+        title: '山东河口蓝色经济开发区招商引资政策' },
+
+      {
+        id: 6,
+        title: '"双招双引"培育新功能推动园区高质量发展' },
+
+      {
+        id: 7,
+        title: '河口区招商引资优惠奖励十条' }] };
+
 
 
   },
@@ -14863,7 +14997,17 @@ var _default =
   computed: {
     newsP: function newsP() {
       return this.newsPic;
-    } } };exports.default = _default;
+    } } }, "methods",
+
+
+{
+  goDeail: function goDeail(id) {
+    uni.navigateTo({
+      // url: `/pages/picNewsDetail/picNewsDetail?id=${id}`
+      url: "/components/shareWindow/shareWindow?id=".concat(id) });
+
+  } });exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]))
 
 /***/ }),
 
@@ -15678,7 +15822,7 @@ define('components/picnews/picnews.js',function(require, module, exports, window
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;} //
 //
 //
 //
@@ -15697,12 +15841,40 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 //
 //
 //
-var _default =
-{
+//
+var _default = _defineProperty({
+
   data: function data() {
     return {
-      newslist: ['123313131313131', '吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱',
-      '333333333333333333333', '44444444444444444', '55555555555555555', '6666666666666666666', '7777777777777777'] };
+      newslist: [{
+        id: 1,
+        title: '中共河口区纪委监委机关成立党员大会召开' },
+
+
+      {
+        id: 2,
+        title: '中国共产党东营市河口区纪委监委机关委员会成立' },
+
+      {
+        id: 3,
+        title: '市督导组来我区督察中央生态环境保护监督整改工作' },
+
+      {
+        id: 4,
+        title: '中共河口区纪委监委机关成立党员大会召开' },
+
+      {
+        id: 5,
+        title: '山东河口蓝色经济开发区招商引资政策' },
+
+      {
+        id: 6,
+        title: '"双招双引"培育新功能推动园区高质量发展' },
+
+      {
+        id: 7,
+        title: '河口区招商引资优惠奖励十条' }] };
+
 
 
   },
@@ -15715,7 +15887,17 @@ var _default =
   computed: {
     newsP: function newsP() {
       return this.newsPic;
-    } } };exports.default = _default;
+    } } }, "methods",
+
+
+{
+  goDeail: function goDeail(id) {
+    uni.navigateTo({
+      // url: `/pages/picNewsDetail/picNewsDetail?id=${id}`
+      url: "/components/shareWindow/shareWindow?id=".concat(id) });
+
+  } });exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]))
 
 /***/ }),
 
@@ -17287,6 +17469,973 @@ __webpack_require__.r(__webpack_exports__);
 },[["D:\\project\\yun\\main.js?{\"page\":\"components%2FsearchBar%2FsearchBar\"}","common/runtime","common/vendor"]]]);
 });
 require('components/searchBar/searchBar.js');
+__wxRoute = 'pages/picNewsDetail/picNewsDetail';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/picNewsDetail/picNewsDetail.js';
+
+define('pages/picNewsDetail/picNewsDetail.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/picNewsDetail/picNewsDetail"],{
+
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!D:\\project\\yun\\pages\\picNewsDetail\\picNewsDetail.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!D:/project/yun/pages/picNewsDetail/picNewsDetail.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+//
+//
+//
+//
+//
+var _default =
+
+
+{
+  onLoad: function onLoad(option) {
+    console.log(option.id, " at pages\\picNewsDetail\\picNewsDetail.vue:12"); //打印出上个页面传递的参数。
+    this.urlId = option.id;
+  },
+
+  data: function data() {
+    return {
+      urlId: '',
+
+
+      newsDeail: [
+      {
+        id: 1,
+        title: '中共河口区纪委监委机关成立党员大会召开',
+        autor: '新华社',
+        time: '2019-2-21',
+        newsText: '' },
+
+
+      {
+        id: 2,
+        title: '中国共产党东营市河口区纪委监委机关委员会成立',
+        autor: '新华社',
+        time: '2019-3-21',
+        newsText: '' },
+
+
+      {
+        id: 3,
+        title: '市督导组来我区督察中央生态环境保护监督整改工作',
+        autor: '新华社',
+        time: '2019-7-1',
+        newsText: '' },
+
+
+      {
+        id: 4,
+        title: '中共河口区纪委监委机关成立党员大会召开',
+        autor: '新华社',
+        time: '2019-7-4',
+        newsText: '' },
+
+
+      {
+        id: 5,
+        title: '山东河口蓝色经济开发区招商引资政策',
+        autor: '新华社',
+        time: '2019-3-7',
+        newsText: '' },
+
+
+      {
+        id: 6,
+        title: '"双招双引"培育新功能推动园区高质量发展',
+        autor: '新华社',
+        time: '2019-4-7',
+        newsText: '' },
+
+      {
+        id: 7,
+        title: '河口区招商引资优惠奖励十条',
+        autor: '新华社',
+        time: '2019-5-7',
+        newsText: '' }] };
+
+
+
+
+  },
+
+  components: {},
+
+
+
+  methods: {
+    onNavigationBarButtonTap: function onNavigationBarButtonTap(e) {
+      console.log("share", " at pages\\picNewsDetail\\picNewsDetail.vue:87");
+    } } };exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!D:\\project\\yun\\pages\\picNewsDetail\\picNewsDetail.vue?vue&type=template&id=6f8f9684&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!D:/project/yun/pages/picNewsDetail/picNewsDetail.vue?vue&type=template&id=6f8f9684& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "D:\\project\\yun\\pages\\picNewsDetail\\picNewsDetail.vue":
+/*!************************************************************!*\
+  !*** D:/project/yun/pages/picNewsDetail/picNewsDetail.vue ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _picNewsDetail_vue_vue_type_template_id_6f8f9684___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./picNewsDetail.vue?vue&type=template&id=6f8f9684& */ "D:\\project\\yun\\pages\\picNewsDetail\\picNewsDetail.vue?vue&type=template&id=6f8f9684&");
+/* harmony import */ var _picNewsDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./picNewsDetail.vue?vue&type=script&lang=js& */ "D:\\project\\yun\\pages\\picNewsDetail\\picNewsDetail.vue?vue&type=script&lang=js&");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _picNewsDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _picNewsDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _picNewsDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _picNewsDetail_vue_vue_type_template_id_6f8f9684___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _picNewsDetail_vue_vue_type_template_id_6f8f9684___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "D:/project/yun/pages/picNewsDetail/picNewsDetail.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "D:\\project\\yun\\pages\\picNewsDetail\\picNewsDetail.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************!*\
+  !*** D:/project/yun/pages/picNewsDetail/picNewsDetail.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_picNewsDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!./picNewsDetail.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!D:\\project\\yun\\pages\\picNewsDetail\\picNewsDetail.vue?vue&type=script&lang=js&");
+/* harmony import */ var _F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_picNewsDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_picNewsDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_picNewsDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_picNewsDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_picNewsDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "D:\\project\\yun\\pages\\picNewsDetail\\picNewsDetail.vue?vue&type=template&id=6f8f9684&":
+/*!*******************************************************************************************!*\
+  !*** D:/project/yun/pages/picNewsDetail/picNewsDetail.vue?vue&type=template&id=6f8f9684& ***!
+  \*******************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_picNewsDetail_vue_vue_type_template_id_6f8f9684___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!./picNewsDetail.vue?vue&type=template&id=6f8f9684& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!D:\\project\\yun\\pages\\picNewsDetail\\picNewsDetail.vue?vue&type=template&id=6f8f9684&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_picNewsDetail_vue_vue_type_template_id_6f8f9684___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_picNewsDetail_vue_vue_type_template_id_6f8f9684___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ })
+
+},[["D:\\project\\yun\\main.js?{\"page\":\"pages%2FpicNewsDetail%2FpicNewsDetail\"}","common/runtime","common/vendor"]]]);
+});
+require('pages/picNewsDetail/picNewsDetail.js');
+__wxRoute = 'components/shareWindow/shareWindow';__wxRouteBegin = true;__wxAppCurrentFile__ = 'components/shareWindow/shareWindow.js';
+
+define('components/shareWindow/shareWindow.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["components/shareWindow/shareWindow"],{
+
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!D:\\project\\yun\\components\\shareWindow\\shareWindow.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!D:/project/yun/components/shareWindow/shareWindow.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var _picNewsDetail = _interopRequireDefault(__webpack_require__(/*! pages/picNewsDetail/picNewsDetail.vue */ "D:\\project\\yun\\pages\\picNewsDetail\\picNewsDetail.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} //
+//
+//
+//
+//
+//
+//
+//
+// 如下为分享内容定义，可根据业务需求自行定义
+var strShareUrl = "https://uniapp.dcloud.io";var strShareTitle = "跨端神器uni-app，开发一次，App、小程序、H5全覆盖";var strShareSummary = "iOS、Android、H5、微信/支付宝/百度小程序，一套代码全覆盖";var strShareImageUrl = "https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/uni@2x.png"; //以下为计算菜单的nview绘制布局，为固定算法，使用者无关关心
+var screenWidth = plus.screen.resolutionWidth; //以360px宽度屏幕为例，上下左右边距及2排按钮边距留25像素，图标宽度55像素，同行图标间的间距在360宽的屏幕是30px，但需要动态计算，以此原则计算4列图标分别的left位置
+//图标下的按钮文字距离图标5像素，文字大小12像素
+//底部取消按钮高度固定为44px
+//TODO 未处理横屏和pad，这些情况6个图标应该一排即可
+var margin = 25,iconWidth = 55,icontextSpace = 5,textHeight = 12;var left1 = margin / 360 * screenWidth;var iconSpace = (screenWidth - left1 * 2 - iconWidth * 4) / 3; //屏幕宽度减去左右留白间距，再减去4个图标的宽度，就是3个同行图标的间距
+if (iconSpace <= 5) {//屏幕过窄时，缩小边距和图标大小，再算一次
+  margin = 15;iconWidth = 40;left1 = margin / 360 * screenWidth;iconSpace = (screenWidth - left1 * 2 - iconWidth * 4) / 3; //屏幕宽度减去左右留白间距，再减去4个图标的宽度，就是3个同行图标的间距
+}var left2 = left1 + iconWidth + iconSpace;var left3 = left1 + (iconWidth + iconSpace) * 2;var left4 = left1 + (iconWidth + iconSpace) * 3;var top1 = left1;var top2 = top1 + iconWidth + icontextSpace + textHeight + left1; // 	console.log("screenWidth: " + screenWidth + " ;height: " + plus.screen.resolutionHeight);
+// 	console.log("left1: " + left1);
+// 	console.log("iconSpace: " + iconSpace);
+var nvMask = new plus.nativeObj.View("nvMask", { //先创建遮罩层
+  top: '0px', left: '0px', height: '100%', width: '100%', backgroundColor: 'rgba(0,0,0,0.2)' });nvMask.addEventListener("click", function () {//处理遮罩层点击
+  nvMask.hide();nvImageMenu.hide();});var nvImageMenu = new plus.nativeObj.View("nvImageMenu", { //创建底部图标菜单
+  bottom: '0px', left: '0px', height: '264px', width: '100%', backgroundColor: 'rgb(255,255,255)' }); //绘制底部图标菜单的内容
+nvImageMenu.draw([{ tag: 'rect', //菜单顶部的分割灰线
+  color: '#e7e7e7', position: { top: '0px', height: '1px' } }, { tag: 'font', id: 'sharecancel', //底部取消按钮的文字
+  text: '取消分享', textStyles: { size: '14px' }, position: { bottom: '0px', height: '44px' } }, { tag: 'rect', //底部取消按钮的顶部边线
+  color: '#e7e7e7', position: { bottom: '45px', height: '1px' } }, { tag: 'img', id: 'imgwechatfriend', src: '/static/sharemenu/wechatfriend.png', position: { top: top1, left: left1, width: iconWidth, height: iconWidth } }, { tag: 'font', id: 'fontwechatfriend', text: '微信好友', textStyles: { size: textHeight }, position: { top: top1 + iconWidth + icontextSpace, left: left1, width: iconWidth, height: textHeight } }, { tag: 'img', id: 'imgwechatmoments', src: '/static/sharemenu/wechatmoments.png', position: { top: top1, left: left2, width: iconWidth, height: iconWidth } }, { tag: 'font', id: 'fontwechatmoments', text: '微信朋友圈', textStyles: { size: textHeight }, position: { top: top1 + iconWidth + icontextSpace, left: left2 - 2.5, width: iconWidth + 5, height: textHeight } }, { tag: 'img', id: 'imgweibo', src: '/static/sharemenu/weibo.png', position: { top: top1, left: left3, width: iconWidth, height: iconWidth } }, { tag: 'font', id: 'fontweibo', text: '微博', textStyles: { size: textHeight }, position: { top: top1 + iconWidth + icontextSpace, left: left3, width: iconWidth, height: textHeight } }, { tag: 'img', id: 'imgqq', src: '/static/sharemenu/qq.png', position: { top: top1, left: left4, width: iconWidth, height: iconWidth } }, { tag: 'font', id: 'fontqq', text: 'QQ', textStyles: { size: textHeight }, position: { top: top1 + iconWidth + icontextSpace, left: left4, width: iconWidth, height: textHeight } }, // {
+// 	tag: 'img',
+// 	id: 'imgcopyurl',
+// 	src: '/static/sharemenu/copyurl.png',
+// 	position: {
+// 		top: top2,
+// 		left: left1,
+// 		width: iconWidth,
+// 		height: iconWidth
+// 	}
+// },
+// {
+// 	tag: 'font',
+// 	id: 'fontcopyurl',
+// 	text: '复制',
+// 	textStyles: {
+// 		size: textHeight
+// 	},
+// 	position: {
+// 		top: top2 + iconWidth + icontextSpace,
+// 		left: left1,
+// 		width: iconWidth,
+// 		height: textHeight
+// 	}
+// },
+{ tag: 'img', id: 'imgmore', src: '/static/sharemenu/more.png', position: { top: top2, left: left1, width: iconWidth, height: iconWidth } }, { tag: 'font', id: 'fontmore', text: '更多', textStyles: { size: textHeight }, position: { top: top2 + iconWidth + icontextSpace, left: left1, width: iconWidth, height: textHeight } }]);nvImageMenu.addEventListener("click", function (e) {//处理底部图标菜单的点击事件，根据点击位置触发不同的逻辑
+  // console.log("click menu"+JSON.stringify(e));
+  if (e.screenY > plus.screen.resolutionHeight - 44) {//点击了底部取消按钮
+    nvMask.hide();nvImageMenu.hide();} else if (e.clientX < 5 || e.clientX > screenWidth - 5 || e.clientY < 5) {//屏幕左右边缘5像素及菜单顶部5像素不处理点击
+  } else {//点击了图标按钮
+    var iClickIndex = -1; //点击的图标按钮序号，第一个图标按钮的index为0
+    var iRow = e.clientY < top2 - left1 / 2 ? 0 : 1;var iCol = -1;if (e.clientX < left2 - iconSpace / 2) {iCol = 0;} else if (e.clientX < left3 - iconSpace / 2) {iCol = 1;} else if (e.clientX < left4 - iconSpace / 2) {iCol = 2;} else {iCol = 3;}if (iRow == 0) {iClickIndex = iCol;} else {iClickIndex = iCol + 4;}console.log("点击按钮的序号: " + iClickIndex, " at components\\shareWindow\\shareWindow.vue:268");if (iClickIndex >= 0 && iClickIndex <= 4) {//处理具体的点击逻辑，此处也可以自行定义逻辑。如果增减了按钮，此处也需要跟着修改
+      var strProvider = "",strScene = "";switch (iClickIndex) {case 0:strProvider = "weixin";strScene = "WXSceneSession";break;case 1:strProvider = "weixin";strScene = "WXSenceTimeline";break;case 2:strProvider = "sinaweibo";break;case 3:strProvider = "qq";break; // case 4:
+        // 	uni.setClipboardData({
+        // 		data: strShareUrl,
+        // 		complete() {
+        // 			uni.showToast({
+        // 				title: "已复制到剪贴板"
+        // 			})
+        // 		}
+        // 	})
+        // 	break;
+        case 4:plus.share.sendWithSystem({ content: strShareUrl });break;}if (strProvider != "") {//点击了0-3序号的这4个按钮
+        console.log('share!!!!', " at components\\shareWindow\\shareWindow.vue:303");uni.share({ provider: strProvider, scene: strScene, type: 0, href: strShareUrl, title: strShareTitle, summary: strShareSummary, imageUrl: strShareImageUrl, success: function success(res) {console.log("success:" + JSON.stringify(res), " at components\\shareWindow\\shareWindow.vue:313");}, fail: function fail(err) {console.log("fail:" + JSON.stringify(err), " at components\\shareWindow\\shareWindow.vue:316");} });}}}}); /* nvImageMenu.addEventListener("touchstart", function(e) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           	if (e.screenY > (plus.screen.resolutionHeight - 44)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           		//TODO 这里可以处理按下背景变灰的效果
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           	}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           })
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           nvImageMenu.addEventListener("touchmove", function(e) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           	//TODO 这里可以处理按下背景变灰的效果
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           	if (e.screenY > plus.screen.resolutionHeight - 44) {}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           })
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           nvImageMenu.addEventListener("touchend", function(e) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           	//TODO 这里可以处理释放背景恢复的效果
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           })
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           */ // 详情页
+var _default = { onLoad: function onLoad() {}, data: function data() {return { title: '' };}, components: { NewsDetail: _picNewsDetail.default }, onBackPress: function onBackPress() {//监听back键，关闭弹出菜单
+    if (nvImageMenu.isVisible()) {nvImageMenu.hide();nvMask.hide();return true;}}, onNavigationBarButtonTap: function onNavigationBarButtonTap(e) {console.log(e, " at components\\shareWindow\\shareWindow.vue:363");switch (e.text) {case "\uE607": //点击分享按钮
+        //TODO 未处理h5，h5应调用qq浏览器等自带的share api，如果浏览器不自带share，那么分享图标不应该显示。或者从简的话，h5整个就不显示分享按钮
+        nvMask.show();nvImageMenu.show(); //5+应支持从底部向上弹出的动画
+        break;}}, methods: {} };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]))
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!D:\\project\\yun\\pages\\picNewsDetail\\picNewsDetail.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!D:/project/yun/pages/picNewsDetail/picNewsDetail.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+//
+//
+//
+//
+//
+var _default =
+
+
+{
+  onLoad: function onLoad(option) {
+    console.log(option.id, " at pages\\picNewsDetail\\picNewsDetail.vue:12"); //打印出上个页面传递的参数。
+    this.urlId = option.id;
+  },
+
+  data: function data() {
+    return {
+      urlId: '',
+
+
+      newsDeail: [
+      {
+        id: 1,
+        title: '中共河口区纪委监委机关成立党员大会召开',
+        autor: '新华社',
+        time: '2019-2-21',
+        newsText: '' },
+
+
+      {
+        id: 2,
+        title: '中国共产党东营市河口区纪委监委机关委员会成立',
+        autor: '新华社',
+        time: '2019-3-21',
+        newsText: '' },
+
+
+      {
+        id: 3,
+        title: '市督导组来我区督察中央生态环境保护监督整改工作',
+        autor: '新华社',
+        time: '2019-7-1',
+        newsText: '' },
+
+
+      {
+        id: 4,
+        title: '中共河口区纪委监委机关成立党员大会召开',
+        autor: '新华社',
+        time: '2019-7-4',
+        newsText: '' },
+
+
+      {
+        id: 5,
+        title: '山东河口蓝色经济开发区招商引资政策',
+        autor: '新华社',
+        time: '2019-3-7',
+        newsText: '' },
+
+
+      {
+        id: 6,
+        title: '"双招双引"培育新功能推动园区高质量发展',
+        autor: '新华社',
+        time: '2019-4-7',
+        newsText: '' },
+
+      {
+        id: 7,
+        title: '河口区招商引资优惠奖励十条',
+        autor: '新华社',
+        time: '2019-5-7',
+        newsText: '' }] };
+
+
+
+
+  },
+
+  components: {},
+
+
+
+  methods: {
+    onNavigationBarButtonTap: function onNavigationBarButtonTap(e) {
+      console.log("share", " at pages\\picNewsDetail\\picNewsDetail.vue:87");
+    } } };exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!D:\\project\\yun\\components\\shareWindow\\shareWindow.vue?vue&type=style&index=0&lang=css&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!D:/project/yun/components/shareWindow/shareWindow.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!D:\\project\\yun\\components\\shareWindow\\shareWindow.vue?vue&type=template&id=572440f8&":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!D:/project/yun/components/shareWindow/shareWindow.vue?vue&type=template&id=572440f8& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!D:\\project\\yun\\pages\\picNewsDetail\\picNewsDetail.vue?vue&type=template&id=6f8f9684&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!D:/project/yun/pages/picNewsDetail/picNewsDetail.vue?vue&type=template&id=6f8f9684& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "D:\\project\\yun\\components\\shareWindow\\shareWindow.vue":
+/*!*************************************************************!*\
+  !*** D:/project/yun/components/shareWindow/shareWindow.vue ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _shareWindow_vue_vue_type_template_id_572440f8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./shareWindow.vue?vue&type=template&id=572440f8& */ "D:\\project\\yun\\components\\shareWindow\\shareWindow.vue?vue&type=template&id=572440f8&");
+/* harmony import */ var _shareWindow_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./shareWindow.vue?vue&type=script&lang=js& */ "D:\\project\\yun\\components\\shareWindow\\shareWindow.vue?vue&type=script&lang=js&");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _shareWindow_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _shareWindow_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _shareWindow_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./shareWindow.vue?vue&type=style&index=0&lang=css& */ "D:\\project\\yun\\components\\shareWindow\\shareWindow.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _shareWindow_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _shareWindow_vue_vue_type_template_id_572440f8___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _shareWindow_vue_vue_type_template_id_572440f8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "D:/project/yun/components/shareWindow/shareWindow.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "D:\\project\\yun\\components\\shareWindow\\shareWindow.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************!*\
+  !*** D:/project/yun/components/shareWindow/shareWindow.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_shareWindow_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!./shareWindow.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!D:\\project\\yun\\components\\shareWindow\\shareWindow.vue?vue&type=script&lang=js&");
+/* harmony import */ var _F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_shareWindow_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_shareWindow_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_shareWindow_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_shareWindow_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_shareWindow_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "D:\\project\\yun\\components\\shareWindow\\shareWindow.vue?vue&type=style&index=0&lang=css&":
+/*!**********************************************************************************************!*\
+  !*** D:/project/yun/components/shareWindow/shareWindow.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_shareWindow_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!./shareWindow.vue?vue&type=style&index=0&lang=css& */ "./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!D:\\project\\yun\\components\\shareWindow\\shareWindow.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_shareWindow_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_shareWindow_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_shareWindow_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_shareWindow_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_shareWindow_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "D:\\project\\yun\\components\\shareWindow\\shareWindow.vue?vue&type=template&id=572440f8&":
+/*!********************************************************************************************!*\
+  !*** D:/project/yun/components/shareWindow/shareWindow.vue?vue&type=template&id=572440f8& ***!
+  \********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_shareWindow_vue_vue_type_template_id_572440f8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!./shareWindow.vue?vue&type=template&id=572440f8& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!D:\\project\\yun\\components\\shareWindow\\shareWindow.vue?vue&type=template&id=572440f8&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_shareWindow_vue_vue_type_template_id_572440f8___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_shareWindow_vue_vue_type_template_id_572440f8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "D:\\project\\yun\\pages\\picNewsDetail\\picNewsDetail.vue":
+/*!************************************************************!*\
+  !*** D:/project/yun/pages/picNewsDetail/picNewsDetail.vue ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _picNewsDetail_vue_vue_type_template_id_6f8f9684___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./picNewsDetail.vue?vue&type=template&id=6f8f9684& */ "D:\\project\\yun\\pages\\picNewsDetail\\picNewsDetail.vue?vue&type=template&id=6f8f9684&");
+/* harmony import */ var _picNewsDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./picNewsDetail.vue?vue&type=script&lang=js& */ "D:\\project\\yun\\pages\\picNewsDetail\\picNewsDetail.vue?vue&type=script&lang=js&");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _picNewsDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _picNewsDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _picNewsDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _picNewsDetail_vue_vue_type_template_id_6f8f9684___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _picNewsDetail_vue_vue_type_template_id_6f8f9684___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "D:/project/yun/pages/picNewsDetail/picNewsDetail.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "D:\\project\\yun\\pages\\picNewsDetail\\picNewsDetail.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************!*\
+  !*** D:/project/yun/pages/picNewsDetail/picNewsDetail.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_picNewsDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!./picNewsDetail.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!D:\\project\\yun\\pages\\picNewsDetail\\picNewsDetail.vue?vue&type=script&lang=js&");
+/* harmony import */ var _F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_picNewsDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_picNewsDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_picNewsDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_picNewsDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_picNewsDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "D:\\project\\yun\\pages\\picNewsDetail\\picNewsDetail.vue?vue&type=template&id=6f8f9684&":
+/*!*******************************************************************************************!*\
+  !*** D:/project/yun/pages/picNewsDetail/picNewsDetail.vue?vue&type=template&id=6f8f9684& ***!
+  \*******************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_picNewsDetail_vue_vue_type_template_id_6f8f9684___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!./picNewsDetail.vue?vue&type=template&id=6f8f9684& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!D:\\project\\yun\\pages\\picNewsDetail\\picNewsDetail.vue?vue&type=template&id=6f8f9684&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_picNewsDetail_vue_vue_type_template_id_6f8f9684___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_F_HBuilderX_2_0_1_20190614_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_picNewsDetail_vue_vue_type_template_id_6f8f9684___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ })
+
+},[["D:\\project\\yun\\main.js?{\"page\":\"components%2FshareWindow%2FshareWindow\"}","common/runtime","common/vendor"]]]);
+});
+require('components/shareWindow/shareWindow.js');
 ;(function(global) {
     __uni_launch_ready(function() {
         var entryPagePath = __wxConfig.entryPagePath.replace('.html', '')

@@ -13,7 +13,9 @@
     "pages/user/login/login",
     "pages/user/register/register",
     "components/navbar/navbar",
-    "components/searchBar/searchBar"
+    "components/searchBar/searchBar",
+    "pages/picNewsDetail/picNewsDetail",
+    "components/shareWindow/shareWindow"
   ],
   "subPackages": [],
   "window": {

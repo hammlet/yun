@@ -128,12 +128,12 @@
 		width: 100%;
 		padding-bottom: 200upx;
 		background-color: #FFFFFF;
-		padding-bottom:170upx ;
+		padding-bottom:170upx;
 	}
 
 	/deep/ .tabs .active-switch .active-item .item {
 		font-family: Microsoft YaHei;
-		font-size: 18px;
+		font-size: 32upx;
 		/* font-weight: bold;	 */
 	}
 	

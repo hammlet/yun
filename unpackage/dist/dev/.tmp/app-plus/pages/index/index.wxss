@@ -106,9 +106,9 @@ swiper {
 	   text-overflow: ellipsis;
 	overflow: hidden;
 	white-space: nowrap;
-	
 
-	
+
+
 	/* padding: 20upx; */
 	/* display: flex; */
 	/* flex-direction:column; */
@@ -144,7 +144,7 @@ page {
 }
 /deep/ .tabs .active-switch .active-item .item {
 	font-family: Microsoft YaHei;
-	font-size: 18px;
+	font-size: 32rpx;
 	/* font-weight: bold;	 */
 }
 

@@ -7356,6 +7356,23 @@ createPage(_searchBar.default);
 
 /***/ }),
 
+/***/ "D:\\project\\yun\\main.js?{\"page\":\"components%2FshareWindow%2FshareWindow\"}":
+/*!********************************************************************************!*\
+  !*** D:/project/yun/main.js?{"page":"components%2FshareWindow%2FshareWindow"} ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\project\\yun\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _shareWindow = _interopRequireDefault(__webpack_require__(/*! ./components/shareWindow/shareWindow.vue */ "D:\\project\\yun\\components\\shareWindow\\shareWindow.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_shareWindow.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["createPage"]))
+
+/***/ }),
+
 /***/ "D:\\project\\yun\\main.js?{\"page\":\"components%2Fswiper%2Fswiper\"}":
 /*!**********************************************************************!*\
   !*** D:/project/yun/main.js?{"page":"components%2Fswiper%2Fswiper"} ***!
@@ -7471,6 +7488,23 @@ createPage(_map.default);
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
 var _message = _interopRequireDefault(__webpack_require__(/*! ./pages/message/message.vue */ "D:\\project\\yun\\pages\\message\\message.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 createPage(_message.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "D:\\project\\yun\\main.js?{\"page\":\"pages%2FpicNewsDetail%2FpicNewsDetail\"}":
+/*!*******************************************************************************!*\
+  !*** D:/project/yun/main.js?{"page":"pages%2FpicNewsDetail%2FpicNewsDetail"} ***!
+  \*******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\project\\yun\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _picNewsDetail = _interopRequireDefault(__webpack_require__(/*! ./pages/picNewsDetail/picNewsDetail.vue */ "D:\\project\\yun\\pages\\picNewsDetail\\picNewsDetail.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_picNewsDetail.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["createPage"]))
 
 /***/ }),
