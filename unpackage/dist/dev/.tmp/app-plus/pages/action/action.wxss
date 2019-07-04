@@ -72,6 +72,22 @@
 	width: 220rpx;
 	height: 210rpx;
 }
+.newsImageText {
+	position: relative;
+}
+.newsPicPic {
+	margin-bottom: 20rpx;
+}
+.picTitle {
+	position: absolute;
+	bottom: 20rpx;
+	width: 220rpx;
+	background-color: #111A34;
+	opacity: 0.7;
+	text-align: center;
+	padding: 10rpx 50rpx 10rpx 50rpx;
+	color: #FFFFFF;
+}
 .newsGroup {
 	width: 65%;
 	padding: 20rpx 20rpx 0 20rpx;
@@ -102,18 +118,18 @@
 
 
 page {
-		background-color: #FFFFFF;
+	background-color: #FFFFFF;
 }
 .logoContent {
-		position: fixed;
-		z-index: 99;
-		width: 100%;
+	position: fixed;
+	z-index: 99;
+	width: 100%;
 }
 .logo {
-		width: 100%;
-		height: 200rpx;
+	width: 100%;
+	height: 200rpx;
 }
 .actionContent {
-		padding-top: 200rpx;
+	padding-top: 160rpx;
 }
 

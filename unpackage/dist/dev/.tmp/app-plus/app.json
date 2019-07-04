@@ -15,7 +15,8 @@
     "components/navbar/navbar",
     "components/searchBar/searchBar",
     "pages/picNewsDetail/picNewsDetail",
-    "components/shareWindow/shareWindow"
+    "components/shareWindow/shareWindow",
+    "components/shareWindow/shareSimple/shareSimple"
   ],
   "subPackages": [],
   "window": {

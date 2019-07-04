@@ -42,7 +42,8 @@
                         "appkey_ios" : "c21c79b9e1a4e3246fb7ab4e1c1b82fb",
                         "appkey_android" : "242f5ad31f7762822aa8cab79fb5dc4e"
                     }
-                }
+                },
+                "oauth" : {}
             },
             "splashscreen" : {
                 "android" : {
@@ -93,7 +94,8 @@
         },
         /* 模块配置 */
         "modules" : {
-            "Maps" : {}
+            "Maps" : {},
+            "OAuth" : {}
         }
     },
     /* 快应用特有相关 */

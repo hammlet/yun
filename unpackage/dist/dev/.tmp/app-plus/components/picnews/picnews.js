@@ -28,50 +28,28 @@
 //
 //
 //
+//
+//
+//
+//
+//
+//
 var _default = _defineProperty({
 
   data: function data() {
-    return {
-      newslist: [{
-        id: 1,
-        title: '中共河口区纪委监委机关成立党员大会召开' },
-
-
-      {
-        id: 2,
-        title: '中国共产党东营市河口区纪委监委机关委员会成立' },
-
-      {
-        id: 3,
-        title: '市督导组来我区督察中央生态环境保护监督整改工作' },
-
-      {
-        id: 4,
-        title: '中共河口区纪委监委机关成立党员大会召开' },
-
-      {
-        id: 5,
-        title: '山东河口蓝色经济开发区招商引资政策' },
-
-      {
-        id: 6,
-        title: '"双招双引"培育新功能推动园区高质量发展' },
-
-      {
-        id: 7,
-        title: '河口区招商引资优惠奖励十条' }] };
-
-
-
+    return {};
   },
 
-  props: ['newsPic'],
+  props: ['newsText', 'newsPic'],
   methods: {},
 
 
 
   computed: {
-    newsP: function newsP() {
+    newsTextNow: function newsTextNow() {
+      return this.newsText;
+    },
+    newsPicNow: function newsPicNow() {
       return this.newsPic;
     } } }, "methods",
 
@@ -80,7 +58,9 @@ var _default = _defineProperty({
   goDeail: function goDeail(id) {
     uni.navigateTo({
       // url: `/pages/picNewsDetail/picNewsDetail?id=${id}`
-      url: "/components/shareWindow/shareWindow?id=".concat(id) });
+      // url: `/components/shareWindow/shareWindow?id=${id}`
+      url: "/components/shareWindow/shareSimple/shareSimple?id=".concat(id) });
+
 
   } });exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]))

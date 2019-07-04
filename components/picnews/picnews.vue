@@ -2,13 +2,19 @@
 	<!-- index 新闻 -->
 	<view class="homeNews">
 		<view class="newsLogo">
-			<image v-for="(pic, index) in newsP" :key="index" :src="pic.Files" mode=""></image>
+			<!-- <image v-for="(pic, index) in newsP" :key="index" :src="pic.Files" mode=""></image> -->
+			<view class="newsImageText" v-for="(pic, index) in newsPicNow" :key="index">
+				<image class="newsPicPic" :src="pic.src" mode="">
+				</image>
+
+				<view class="picTitle" v-show="pic.id<=2">{{pic.title}}</view>
+			</view>
 		</view>
 
 		<view class="newsGroup">
-			<view class="newsText" v-for="(item ,index) in newslist" :key="index" @click="goDeail(item.id)">
+			<view class="newsText" v-for="(item ,index) in newsTextNow" :key="index" @click="goDeail(item.id)">
 				<image class="newsPlay" src="../../static/icon/play.png" mode=""></image>
-				
+
 				<view class="news">{{item.title}}</view>
 			</view>
 		</view>
@@ -21,47 +27,19 @@
 <script>
 	export default {
 		data() {
-			return {
-				newslist: [{
-						id: 1,
-						title: '中共河口区纪委监委机关成立党员大会召开',
-					},
-
-					{
-						id: 2,
-						title: '中国共产党东营市河口区纪委监委机关委员会成立',
-					},
-					{
-						id: 3,
-						title: '市督导组来我区督察中央生态环境保护监督整改工作',
-					},
-					{
-						id: 4,
-						title: '中共河口区纪委监委机关成立党员大会召开',
-					},
-					{
-						id: 5,
-						title: '山东河口蓝色经济开发区招商引资政策',
-					},
-					{
-						id: 6,
-						title: '"双招双引"培育新功能推动园区高质量发展',
-					},
-					{
-						id: 7,
-						title: '河口区招商引资优惠奖励十条',
-					},
-				]
-			}
+			return {}
 		},
 
-		props: ['newsPic'],
+		props: ['newsText', 'newsPic'],
 		methods: {
 
 		},
 
 		computed: {
-			newsP() {
+			newsTextNow() {
+				return this.newsText
+			},
+			newsPicNow(){
 				return this.newsPic
 			}
 		},
@@ -70,7 +48,9 @@
 			goDeail(id) {
 				uni.navigateTo({
 					// url: `/pages/picNewsDetail/picNewsDetail?id=${id}`
-					url: `/components/shareWindow/shareWindow?id=${id}`
+					// url: `/components/shareWindow/shareWindow?id=${id}`
+					url: `/components/shareWindow/shareSimple/shareSimple?id=${id}`
+
 				});
 			}
 		}
@@ -96,6 +76,25 @@
 	.newsLogo image {
 		width: 220upx;
 		height: 210upx;
+	}
+
+	.newsImageText {
+		position: relative;
+	}
+
+	.newsPicPic {
+		margin-bottom: 20upx;
+	}
+
+	.picTitle {
+		position: absolute;
+		bottom: 20upx;
+		width: 220upx;
+		background-color: #111A34;
+		opacity: 0.7;
+		text-align: center;
+		padding: 10upx 50upx 10upx 50upx;
+		color: #FFFFFF;
 	}
 
 	.newsGroup {

@@ -1,1 +1,1 @@
-<view><navbar vue-id="1" bind:__l="__l"></navbar><pic-news vue-id="2" bind:__l="__l"></pic-news><time-news vue-id="3" bind:__l="__l"></time-news></view>
+<view class="actionPage"><navbar vue-id="1" bind:__l="__l"></navbar><view class="actionContent"><pic-news vue-id="2" newsText="{{newsText7Now}}" newsPic="{{newsPic3Now}}" bind:__l="__l"></pic-news><time-news vue-id="3" timeNewsText="{{newsText7Bottom}}" bind:__l="__l"></time-news></view></view>

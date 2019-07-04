@@ -1,82 +1,54 @@
 <template>
 
-	<!-- <view>
-		<view :class="[{borderAdd:clickAdd},'timeNewsGroup']"  @click="changeColor">
+	<view >
+		<view :class="[ {timeNewsGroupTest:item.id==1},'timeNewsGroup']" v-for="item in timeNewsText" :key="item.id" @click="gotoDetail(item.id)">
 			<view class="timeNewsTime">
-				<view class="timeNewsBoder" >
+				<view class="timeNewsDate">
 					<view class="newsDay">12</view>
 					<view class="newsMonth">九月</view>
 				</view>
 			</view>
 			<view class="timeNewsContent">
-				<view :class="[{Add:clickAdd},'timeNewsTitle']">title</view>
-				<view class="timeNewsText">内容</view>
+				<view :class="[{Top:item.id==1},'timeNewsTitle']">{{item.title}}</view>
+				<view class="timeNewsText">{{item.simple}}</view>
+				<!-- <u-parse :content="item.text"  class="timeNewsText"></u-parse> -->
 			</view>
-			
-				<image v-show="clickAdd" class="addPic" src="/static/icon/add.png" mode=""></image>
-			
-		</view>
-		
-		<view :class="[{borderAdd:clickAdd},'timeNewsGroup']"  @click="changeColor">
-			<view class="timeNewsTime">
-				<view class="timeNewsBoder" >
-					<view class="newsDay">12</view>
-					<view class="newsMonth">九月</view>
-				</view>
-			</view>
-			<view class="timeNewsContent">
-				<view :class="[{Add:clickAdd},'timeNewsTitle']">title</view>
-				<view class="timeNewsText">内容</view>
-			</view>
-			
-				<image v-show="clickAdd" class="addPic" src="/static/icon/add.png" mode=""></image>
-			
-		</view>
-	</view> -->
-	<view>
-		<view class="timeNewsGroupTest">
-			<view class="timeNewsTime">
-				<view class="timeNewsBoder">
-					<view class="newsDay">12</view>
-					<view class="newsMonth">九月</view>
-				</view>
-			</view>
-			<view class="timeNewsContent">
-				<view class="timeNewsTitle Add">title</view>
-				<view class="timeNewsText">内容</view>
-			</view>
-			<image class="addPic" src="/static/icon/add.png" mode=""></image>
-		</view>
-
-		<view class="timeNewsGroup">
-			<view class="timeNewsTime">
-				<view class="timeNewsBoder">
-					<view class="newsDay">12</view>
-					<view class="newsMonth">九月</view>
-				</view>
-			</view>
-			<view class="timeNewsContent">
-				<view class="timeNewsTitle">title</view>
-				<view class="timeNewsText">内容</view>
-			</view>
-
-			<image v-show="clickAdd" class="addPic" src="/static/icon/add.png" mode=""></image>
+			<image v-show="item.id==1" class="addPic" src="/static/icon/add.png" mode=""></image>
 
 		</view>
+
 	</view>
+
 </template>
 
 <script>
+	import uParse from '@/components/u-parse/u-parse.vue'
+	
 	export default {
 		data() {
 			return {
-				clickAdd: false,
+				Top: '',
 			};
 		},
 
+		props: ['timeNewsText'],
+
+		components: {
+			uParse,
+		},
+
+		computed: {
+		
+		},
+
 		methods: {
-			changeColor() {
-				this.clickAdd = !this.clickAdd;
+			gotoDetail(id){
+				uni.navigateTo({
+					// url: `/pages/picNewsDetail/picNewsDetail?id=${id}`
+					// url: `/components/shareWindow/shareWindow?id=${id}`
+					url: `/components/shareWindow/shareSimple/shareSimple?id=${id}`
+				
+				});
 			}
 		}
 	}
@@ -91,10 +63,10 @@
 		padding: 15upx 10upx 15upx 20upx;
 		margin-left: 30upx;
 		margin-right: 60upx;
-		
+
 		box-shadow: 0px 0px 2px 3px #F1F1F1;
 	}
-	
+
 	.timeNewsGroup {
 		position: relative;
 		display: flex;
@@ -102,15 +74,33 @@
 		/* border: 1px solid red; */
 		padding: 15upx 10upx 15upx 20upx;
 		margin-left: 30upx;
-		margin-right: 60upx;	
+		margin-right: 60upx;
+		
+	}
+	
+	.timeNewsTitle {
+		font-size: 26upx;
+		color:#000000;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
 	}
 
 	.timeNewsTime {
 		width: 15%;
 		border-right: 2px solid #5E5E5E;
 	}
+	
+	.timeNewsText {
+		color:#5E5E5E;
+		height:40upx;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+		font-size: 24upx;
+	}
 
-	.timeNewsBoder {
+	.timeNewsDate {
 		text-align: center;
 		padding: 10upx;
 	}
@@ -119,6 +109,7 @@
 		padding: 0upx 30upx 0 30upx;
 		width: 80%;
 		line-height: 1.5;
+		
 	}
 
 	.newsDay {
@@ -137,11 +128,9 @@
 	}
 
 	/* 动态class */
-	.Add {
+	.Top {
 		color: #048ABF;
 	}
 
-	.borderAdd {
-		border: 2px solid #000000;
-	}
+	
 </style>

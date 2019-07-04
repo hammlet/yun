@@ -1,1 +1,1 @@
-<view></view>
+<view class="detailPage"><view class="detailTitle">{{newsDetail.title}}</view><view class="detailTimeContent"><view class="detailAutor">{{newsDetail.autor}}</view><view class="detailTime">{{newsDetail.time}}</view></view><view class="detailText"><rich-text nodes="{{newsDetail.text}}"></rich-text></view></view>

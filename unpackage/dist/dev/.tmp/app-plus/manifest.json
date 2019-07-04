@@ -21,6 +21,7 @@
     "Maps": {
       "coordType": "gcj02"
     },
+    "OAuth": {},
     "UniNView": {
       "description": "UniNView原生渲染"
     }
@@ -116,6 +117,7 @@
             "appkey_android": "242f5ad31f7762822aa8cab79fb5dc4e"
           }
         },
+        "oauth": {},
         "audio": {
           "mp3": {
             "description": "Android平台录音支持MP3格式文件"

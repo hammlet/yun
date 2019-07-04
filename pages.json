@@ -114,8 +114,14 @@
 		
 			}
 		}
-		
-	],
+        ,{
+            "path" : "components/shareWindow/shareSimple/shareSimple",
+            "style" : {
+				"navigationBarBackgroundColor": "#048ABF",
+				"navigationBarTextStyle": "white"
+			}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarBackgroundColor": "#F8F8F8",

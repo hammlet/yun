@@ -1,0 +1,45 @@
+
+.detailPag {
+	background-color: red;
+}
+.detailTitle {
+	font-size: 50rpx;
+	padding: 20rpx;
+}
+.detailTimeContent {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	padding: 10rpx;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	    -ms-flex-align: end;
+	        align-items: flex-end;
+	border-bottom: 1px solid #cccccc;
+}
+.detailAutor {
+	padding-left: 20rpx;
+	/* width: 30%; */
+	text-align: left;
+}
+.detailTime {
+	padding-left: 10rpx;
+	/* width: 70%; */
+	text-align: left;
+	color:#cccccc;
+}
+.detailText {
+	padding: 20rpx;
+	font-size: 32rpx;
+}
+

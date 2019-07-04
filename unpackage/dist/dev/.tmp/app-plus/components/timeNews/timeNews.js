@@ -8,86 +8,59 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-var _default =
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var uParse = function uParse() {return Promise.all(/*! import() | components/u-parse/u-parse */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/u-parse/u-parse")]).then(__webpack_require__.bind(null, /*! @/components/u-parse/u-parse.vue */ "D:\\project\\yun\\components\\u-parse\\u-parse.vue"));};var _default =
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
   data: function data() {
     return {
-      clickAdd: false };
+      Top: '' };
 
   },
 
+  props: ['timeNewsText'],
+
+  components: {
+    uParse: uParse },
+
+
+  computed: {},
+
+
+
   methods: {
-    changeColor: function changeColor() {
-      this.clickAdd = !this.clickAdd;
+    gotoDetail: function gotoDetail(id) {
+      uni.navigateTo({
+        // url: `/pages/picNewsDetail/picNewsDetail?id=${id}`
+        // url: `/components/shareWindow/shareWindow?id=${id}`
+        url: "/components/shareWindow/shareSimple/shareSimple?id=".concat(id) });
+
+
     } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]))
 
 /***/ }),
 

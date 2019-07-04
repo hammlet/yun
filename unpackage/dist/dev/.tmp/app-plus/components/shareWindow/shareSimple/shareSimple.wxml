@@ -1,0 +1,1 @@
+<view class="share"><news-detail vue-id="1" news="{{news}}" bind:__l="__l"></news-detail></view>

@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "u-parse": "/components/u-parse/u-parse"
+  },
   "component": true
 }
