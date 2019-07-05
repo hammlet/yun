@@ -2,7 +2,5 @@
   "navigationBarTitleText": "",
   "navigationBarBackgroundColor": "#048ABF",
   "navigationBarTextStyle": "white",
-  "usingComponents": {
-    "news-detail": "/pages/picNewsDetail/picNewsDetail"
-  }
+  "usingComponents": {}
 }

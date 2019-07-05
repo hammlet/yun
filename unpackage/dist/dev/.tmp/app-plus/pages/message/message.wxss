@@ -42,46 +42,14 @@ page {
 	background-color: #FFFFFF;
 	/* background-color: red; */
 }
-.messageContent {
-	padding-top: 160rpx;
-}
 .searchContent {
 	position: relative;
-	height: 150rpx;
-	background-color: red;
-	padding: 50rpx 50rpx 50rpx 50rpx;
-}
-.serachBar {
-	height: 70rpx;
-	background-color: #CCCCCC;
-	padding: 10rpx 10rpx 10rpx 60rpx;
-	-webkit-border-radius: 5px;
-	        border-radius: 5px;
-}
-.searchBarLogo {
-	position: absolute;
-	bottom:40rpx;
-	left:55rpx;
-	height:50rpx;
-	width:50rpx
-}
-
-
-page {
-	background-color: #FFFFFF;
+	height: 200rpx;
 	/* background-color: red; */
-}
-.messageContent {
-	padding-top: 160rpx;
-}
-.searchContent {
-	position: relative;
-	height: 150rpx;
-	background-color: red;
-	padding: 50rpx 50rpx 50rpx 50rpx;
+	padding: 100rpx 20rpx 50rpx 20rpx;
 }
 .serachBar {
-	height: 70rpx;
+	height: 90rpx;
 	background-color: #CCCCCC;
 	padding: 10rpx 10rpx 10rpx 60rpx;
 	-webkit-border-radius: 5px;
@@ -89,13 +57,56 @@ page {
 }
 .searchBarLogo {
 	position: absolute;
-	bottom:40rpx;
-	left:55rpx;
-	height:50rpx;
-	width:50rpx
+	bottom: 30rpx;
+	left: 30rpx;
+	height: 50rpx;
+	width: 50rpx
+}
+.messageGroup {
+	margin-top: 100rpx;
 }
 .messageList {
-	display: block;
-	text-align: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	padding: 20rpx 40rpx 20rpx 40rpx;
+}
+.messageLogo {
+	width: 20%;
+}
+.messageLogo image {
+	width: 80rpx;
+	height: 80rpx;
+}
+.messageContent {
+	width: 60%;
+	line-height: 1.5;
+	border-bottom: 1px solid #cccccc;
+}
+.messageAutor {
+	font-size: 40rpx;
+	font-weight: bold;
+}
+.messageText {
+	font-size: 30rpx;
+	color: #5E5E5E;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.messageDate {
+	width: 20%;
+	border-bottom: 1px solid #cccccc;
 }
 

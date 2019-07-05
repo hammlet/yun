@@ -80,16 +80,14 @@
 				"navigationBarTitleText": "",
 				"navigationBarBackgroundColor": "#048ABF",
 				"navigationBarTextStyle": "white",
-				"app-plus":{
-					"titleNView":{
-						"buttons": [ 
-                            {
-								// "type":"share"
-								"text": "\ue607",
-                                "fontSrc": "/static/icon/share.ttf" 
-                            }
-                        ]
-					} 
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							// "type":"share"
+							"text": "\ue607",
+							"fontSrc": "/static/icon/share.ttf"
+						}]
+					}
 				}
 
 			}
@@ -100,28 +98,39 @@
 				"navigationBarTitleText": "",
 				"navigationBarBackgroundColor": "#048ABF",
 				"navigationBarTextStyle": "white",
-				"app-plus":{
-					"titleNView":{
-						"buttons": [ 
-		                    {
-								// "type":"share"
-								"text": "\ue607",
-		                        "fontSrc": "/static/icon/share.ttf" 
-		                    }
-		                ]
-					} 
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							// "type":"share"
+							"text": "\ue607",
+							"fontSrc": "/static/icon/share.ttf"
+						}]
+					}
 				}
-		
+
 			}
-		}
-        ,{
-            "path" : "components/shareWindow/shareSimple/shareSimple",
-            "style" : {
+		}, {
+			"path": "components/shareWindow/shareSimple/shareSimple",
+			"style": {
+				"navigationBarTitleText": "",
 				"navigationBarBackgroundColor": "#048ABF",
 				"navigationBarTextStyle": "white"
 			}
-        }
-    ],
+		}, {
+			"path": "pages/messageDetail/messageDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#048ABF",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"navigationBarTitleText": "",
+					"navigationBarBackgroundColor": "#048ABF",
+					"navigationBarTextStyle": "white"
+					// "titleNView": false //禁用原生导航栏  
+				}
+			}
+		}
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarBackgroundColor": "#F8F8F8",
