@@ -1,22 +1,20 @@
 <template>
 	<view>
-		<view class="logoContent">
-			<image class="logo" src="http://photocdn.sohu.com/20130311/Img368359870.jpg"></image>
+		<Navbar />
+		
+		<view class="userBg">
+			<image src="../../static/icon/user/userBackground.png" mode=""></image>
+		</view>		
+		<view class="noLoginContent">
+			<view class="noLogin" @click="gotoLogin">未登录</view>
 		</view>
-
-
-		<view class="swiper2">
-			<SwiperMade />
-		</view>
-
-		<view class="noLogin" @click="gotoLogin">未登录</view>
 
 		<view class="userGroup">
-			<view>我的应用</view>
+			<view class="userGroupTitle">我的应用</view>
 			<view class="userFlex">
 				<view class="userGroupLogoContent" v-for="(item ,index) in userApp" :key="index">
-					<image class="userGroupLogo" src="../../static/logo.png"></image>
-					<view>{{item.title}}</view>
+					<image class="userGroupLogo" :src="item.pic"></image>
+					<view class="userGroupText">{{item.title}}</view>
 				</view>
 			</view>
 		</view>
@@ -25,19 +23,24 @@
 </template>
 
 <script>
-	import SwiperMade from '../../components/swiperMade/swiperMade.vue'
+	
+	import Navbar from '../../components/navbar/navbar.vue'
+	// import SwiperMade from '../../components/swiperMade/swiperMade.vue'
 	export default {
 		data() {
 			return {
 				userApp: [{
-						title: '我的积分'
+						title: '我的积分',
+						pic:'../../static/icon/user/jifen.png'
 					},
 
 					{
-						title: '我的活动'
+						title: '我的活动',
+						pic:'../../static/icon/user/huodong.png'
 					},
 					{
-						title: '未参加活动'
+						title: '未参加活动',
+						pic:'../../static/icon/user/huodong2.png'
 					}
 				],
 
@@ -54,7 +57,8 @@
 
 		},
 		components: {
-			SwiperMade
+			Navbar,
+			// SwiperMade
 		},
 	}
 </script>
@@ -64,10 +68,35 @@
 		background-color: #FFFFFF;
 	}
 	
+	.userBg {
+		padding: 180upx 20upx 20upx 20upx;
+		/* border:1px solid red; */
+		
+	}
+	
+	.userBg image {
+		width: 100%;
+		border:1px solid #eeeeee;
+		border-radius: 15px;
+		box-shadow: 0px 6px 5px 0px #C3C3C4;
+
+	}
+	
+	.noLoginContent {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	
 	.noLogin {
-		border: 1px solid #008000;
+		/* border: 2px solid #048ABF; */
+		background-color: #048ABF;
+		color:#FFFFFF;
 		display: inline-block;
-		padding: 10px;
+		padding: 15upx 25upx 15upx 25upx;
+		font-size: 36upx;
+		font-weight: bold;
+		border-radius: 10px;
 	}
 
 	.logoContent {
@@ -93,17 +122,27 @@
 	.userFlex {
 		display: flex;
 		flex-direction: row;
-
 	}
 
 	.userGroupLogoContent {
 		margin-top: 50upx;
 		margin-right: 50upx;
+		text-align: center;
+	}
+	
+	.userGroupTitle {
+		font-size: 36upx;
+		font-weight: bold;
 	}
 
 	.userGroupLogo {
 		width: 100upx;
 		height: 100upx;
 		margin-bottom: 15upx;
+	}
+	
+	.userGroupText {
+		font-size: 36upx;
+		color:#737373;
 	}
 </style>

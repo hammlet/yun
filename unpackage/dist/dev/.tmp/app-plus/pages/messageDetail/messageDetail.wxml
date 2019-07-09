@@ -1,1 +1,1 @@
-<view>12345</view>
+<view class="messageDetailContent"><view class="messageFrom">{{messageDetail[0].autor}}</view><view class="messageTextContent"><view class="messageLogo"><image src="{{messageDetail[0].logo}}" mode></image></view><view class="messageText">{{messageDetail[0].text}}</view></view><view class="messageDateContent"><view class="messageDateLogo"></view><view class="messageDate">{{messageDetail[0].date}}</view></view></view>

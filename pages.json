@@ -18,18 +18,14 @@
 			"style": {
 				"navigationStyle": "default",
 				"app-plus": {
-					"titleNView": false //禁用原生导航栏  
+					"titleNView": false ,//禁用原生导航栏 
+					 "bounce": "none"
 				}
 			}
 		}, {
 			"path": "pages/test/test",
 			"style": {
 
-			}
-		}, {
-			"path": "pages/map2/map2",
-			"style": {
-				"navigationBarTitleText": "map2"
 			}
 		}, {
 			"path": "pages/message/message",
@@ -63,10 +59,18 @@
 			"style": {}
 		}, {
 			"path": "pages/user/login/login",
-			"style": {}
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
 		}, {
 			"path": "pages/user/register/register",
-			"style": {}
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
 		}, {
 			"path": "components/navbar/navbar",
 			"style": {}
@@ -130,7 +134,15 @@
 				}
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/searchPage/searchPage",
+            "style" : {
+				"navigationBarTitleText": "搜索",
+				"navigationBarBackgroundColor": "#048ABF",
+				"navigationBarTextStyle": "white"
+			}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarBackgroundColor": "#F8F8F8",

@@ -10,7 +10,7 @@
 }
 .register-explain {
   font-size: 28rpx;
-  color: #9E9E9E;
+  color: #048ABF;
 }
 .register-phone {
   display: -webkit-box;
@@ -35,7 +35,7 @@
   margin-bottom: 40rpx;
 }
 .register-phone-getcode {
-  color: #3F51B5;
+  color: #048ABF;
   text-align: center;
   min-width: 140rpx;
 }
@@ -51,15 +51,14 @@
   border-bottom: 2rpx #dedede solid;
 }
 .btn-register {
-  margin-top: 100rpx;
-  -webkit-border-radius: 50rpx;
-          border-radius: 50rpx;
-  font-size: 16px;
-  color: #fff;
-  background: -webkit-gradient(linear, left top, right top, from(#88a1f9), to(#9ac6ff));
-  background: -webkit-linear-gradient(left, #88a1f9, #9ac6ff);
-  background: -o-linear-gradient(left, #88a1f9, #9ac6ff);
-  background: linear-gradient(to right, #88a1f9, #9ac6ff);
+  margin-top: 50rpx;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  /* font-size: 16px; */
+  /* color: #fff; */
+  /* background: linear-gradient(to right, #88a1f9, #9ac6ff); */
+  background-color: #048ABF !important;
+  color:#FFFFFF !important;
 }
 .btn-register-active {
   background: -webkit-gradient(linear, left top, right top, from(#365fff), to(#36bbff));

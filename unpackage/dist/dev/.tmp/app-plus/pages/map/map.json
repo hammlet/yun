@@ -1,6 +1,7 @@
 {
   "navigationStyle": "default",
   "titleNView": false,
+  "bounce": "none",
   "usingComponents": {
     "navbar": "/components/navbar/navbar"
   }

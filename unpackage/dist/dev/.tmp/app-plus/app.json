@@ -4,7 +4,6 @@
     "components/swiper/swiper",
     "pages/map/map",
     "pages/test/test",
-    "pages/map2/map2",
     "pages/message/message",
     "pages/action/action",
     "pages/user/user",
@@ -17,7 +16,8 @@
     "pages/picNewsDetail/picNewsDetail",
     "components/shareWindow/shareWindow",
     "components/shareWindow/shareSimple/shareSimple",
-    "pages/messageDetail/messageDetail"
+    "pages/messageDetail/messageDetail",
+    "pages/searchPage/searchPage"
   ],
   "subPackages": [],
   "window": {

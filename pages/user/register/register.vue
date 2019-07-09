@@ -1,6 +1,6 @@
 <template>
   <view>
-    <cmd-nav-bar back title="用户注册"></cmd-nav-bar>
+    <cmd-nav-bar back title="用户注册" background-color="#048ABF" font-color="#FFFFFF"></cmd-nav-bar>
     <cmd-page-body type="top">
       <view class="register">
         <!-- 上部分 start -->
@@ -8,7 +8,7 @@
         <view class="register-explain">{{ status ? '用户可通过手机验证码直接注册': '使用账号密码注册后请绑定手机号'}}</view>
         <!-- 上部分 end -->
         <!-- 手机表单注册 start -->
-        <!-- #ifdef H5 -->
+     
         <cmd-transition name="fade-up">
           <view v-if="status">
             <view class="register-phone">
@@ -22,9 +22,9 @@
               hover-class="btn-register-hover" @tap="fnRegister">注册</button>
           </view>
         </cmd-transition>
-        <!-- #endif -->
+    
         <!-- #ifndef H5 -->
-        <cmd-transition name="fade-up" v-if="status">
+        <!-- <cmd-transition name="fade-up" v-if="status">
           <view class="register-phone">
             <cmd-input v-model="mobile.phone" type="number" focus maxlength="11" placeholder="请输入手机号"></cmd-input>
             <view class="register-phone-getcode" @tap="!safety.state ? fnGetPhoneCode() : ''">{{!safety.state&&'获取验证码'||(safety.time+' s')}}</view>
@@ -34,12 +34,12 @@
           </view>
           <button class="btn-register" :class="registerMobile ? 'btn-register-active':''" :disabled="!registerMobile"
             hover-class="btn-register-hover" @tap="fnRegister">注册</button>
-        </cmd-transition>
+        </cmd-transition> -->
         <!-- #endif -->
         <!-- 手机表单注册 end -->
         <!-- 账号表单注册 start -->
         <!-- #ifdef H5 -->
-        <cmd-transition name="fade-up">
+        <!-- <cmd-transition name="fade-up">
           <view v-if="!status">
             <view class="register-username">
               <cmd-input v-model="account.username" type="text" focus maxlength="26" placeholder="请输入账号"></cmd-input>
@@ -50,10 +50,10 @@
             <button class="btn-register" :class="registerAccount ? 'btn-register-active':''" :disabled="!registerAccount"
               hover-class="btn-register-hover" @tap="fnRegister">注册</button>
           </view>
-        </cmd-transition>
+        </cmd-transition> -->
         <!-- #endif -->
         <!-- #ifndef H5 -->
-        <cmd-transition name="fade-up" v-if="!status">
+       <!-- <cmd-transition name="fade-up" v-if="!status">
           <view class="register-username">
             <cmd-input v-model="account.username" type="text" focus maxlength="26" placeholder="请输入账号"></cmd-input>
           </view>
@@ -62,11 +62,11 @@
           </view>
           <button class="btn-register" :class="registerAccount ? 'btn-register-active':''" :disabled="!registerAccount"
             hover-class="btn-register-hover" @tap="fnRegister">注册</button>
-        </cmd-transition>
+        </cmd-transition> -->
         <!-- #endif -->
         <!-- 账号表单注册 end -->
         <!-- 切换注册方式 -->
-        <view class="register-mode" @tap="fnChangeStatus">{{status ?	'账号密码注册' : '手机快捷注册'}}</view>
+        <!-- <view class="register-mode" @tap="fnChangeStatus">{{status ?	'账号密码注册' : '手机快捷注册'}}</view> -->
       </view>
     </cmd-page-body>
   </view>
@@ -223,6 +223,7 @@
     margin-right: 72upx;
     margin-left: 72upx;
   }
+	
 
   .register-title {
     font-size: 56upx;
@@ -231,7 +232,7 @@
 
   .register-explain {
     font-size: 28upx;
-    color: #9E9E9E;
+    color: #048ABF;
   }
 
   .register-phone {
@@ -245,7 +246,7 @@
   }
 
   .register-phone-getcode {
-    color: #3F51B5;
+    color: #048ABF;
     text-align: center;
     min-width: 140upx;
   }
@@ -265,11 +266,13 @@
   }
 
   .btn-register {
-    margin-top: 100upx;
-    border-radius: 50upx;
-    font-size: 16px;
-    color: #fff;
-    background: linear-gradient(to right, #88a1f9, #9ac6ff);
+    margin-top: 50upx;
+    border-radius: 10px;
+    /* font-size: 16px; */
+    /* color: #fff; */
+    /* background: linear-gradient(to right, #88a1f9, #9ac6ff); */
+    background-color: #048ABF !important;
+    color:#FFFFFF !important;
   }
 
   .btn-register-active {

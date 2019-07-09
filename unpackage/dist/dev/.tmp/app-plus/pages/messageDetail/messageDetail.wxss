@@ -1,0 +1,79 @@
+
+.messageDetailContent {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding: 15rpx 30rpx 15rpx 30rpx;
+}
+.messageFrom {
+	text-align: center;
+	font-size: 40rpx;
+	font-weight: bold;
+	padding-bottom: 20rpx;
+	border-bottom: 1px solid #cccccc;
+}
+.messageTextContent {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	margin-top: 30rpx;
+}
+.messageLogo {
+	width: 20%;
+}
+.messageLogo image {
+	width: 100rpx;
+	height: 100rpx;
+}
+.messageText {
+	width: 80%;
+	padding: 15rpx;
+	font-size: 32rpx;
+	border: 2px solid #048ABF;
+	-webkit-border-radius: 10px;
+	        border-radius: 10px;
+}
+.messageDateContent {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack:start;
+	-webkit-justify-content:flex-start;
+	    -ms-flex-pack:start;
+	        justify-content:flex-start;
+	margin-top: 15rpx;
+}
+.messageDateLogo {
+	width: 20%;
+}
+.messageDate {
+	width: 80%;
+}
+
+

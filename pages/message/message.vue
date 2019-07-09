@@ -3,12 +3,10 @@
 		<Navbar />
 		<!-- <SearchBar/> -->
 
-		<view class="searchContent">
 			<view class="searchContent uni-form-item uni-column">
 				<input class="serachBar" confirm-type="search" cursor="20px"  placeholder="搜索" v-model="searchData" />
 				<image class="searchBarLogo" src="../../static/search/searchbar.png" mode=""></image>
 			</view>
-		</view>
 
 		<view class="messageGroup">
 			<view class="messageList" v-for="item in searchList" :key="item.id" @click="goMessageDeatil(item.id)">
@@ -114,21 +112,22 @@
 
 	.searchContent {
 		position: relative;
-		height: 200upx;
+		height: 180upx;
 		/* background-color: red; */
-		padding: 100upx 20upx 50upx 20upx;
+		padding: 200upx 20upx 50upx 20upx;
 	}
 
 	.serachBar {
 		height: 90upx;
 		background-color: #CCCCCC;
-		padding: 10upx 10upx 10upx 60upx;
+		/* padding: 10upx 10upx 10upx 60upx; */
+		padding-left: 60upx;
 		border-radius: 5px;
 	}
 
 	.searchBarLogo {
 		position: absolute;
-		bottom: 30upx;
+		bottom: -25upx;
 		left: 30upx;
 		height: 50upx;
 		width: 50upx

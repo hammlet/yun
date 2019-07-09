@@ -8,7 +8,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
 //
 //
 //
@@ -31,7 +31,13 @@ var _default =
 
 
   },
-  methods: {} };exports.default = _default;
+  methods: {
+    gotoSearch: function gotoSearch() {
+      uni.navigateTo({
+        url: "/pages/searchPage/searchPage" });
+
+    } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]))
 
 /***/ }),
 
@@ -44,6 +50,47 @@ var _default =
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -119,7 +166,48 @@ var _gcoord = _interopRequireDefault(__webpack_require__(/*! gcoord */ "D:\\proj
 //
 //
 //
-var _default = { onReady: function onReady() {}, onLoad: function onLoad() {}, mounted: function mounted() {}, data: function data() {return { localID: '测试id', //导航需要的坐标
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+var _default = { onReady: function onReady() {}, onLoad: function onLoad() {}, mounted: function mounted() {}, data: function data() {return { scrollShow: true, searchData: '', scrollTop: 0, sHeight: '', localID: '测试id', //导航需要的坐标
       mapLatitude: '', mapLongitude: '', destination: '', // 试验田
       title2: 'map', latitude: 37.457591, longitude: 121.446829, renderId: 0, covers: [{ id: 1111, latitude: 37.457591, longitude: 121.446829, iconPath: '../../static/20190629154358.png', // label:{
         //        content:'文本2',
@@ -129,46 +217,10 @@ var _default = { onReady: function onReady() {}, onLoad: function onLoad() {}, m
         //        borderRadius:4,
         // },
         callout: { content: '地点1 ID:111', color: '#F76350', fontSize: 12 // display:'ALWAYS'
-        } }, { id: 2222, latitude: 37.448938, longitude: 121.468887,
-        iconPath: '../../static/20190629154358.png',
-        callout: {
-          content: '地点2 ID:222',
-          color: '#F76350',
-          fontSize: 12 } },
-
-
-      {
-        id: 3333,
-        latitude: 37.443282,
-        longitude: 121.449404,
-        iconPath: '../../static/20190629154358.png', //定点图标
-        callout: {
-          content: '地点3 ID:333',
-          color: '#F76350', //点击定点弹出字体颜色
-          fontSize: 12 } },
-
-
-      {
-        id: 4444,
-        latitude: 37.438852,
-        longitude: 121.433782,
-        iconPath: '../../static/20190629154358.png',
-        callout: {
-          content: '地点4 ID:444',
-          color: '#F76350',
-          fontSize: 12 } }],
-
-
-
-      //试验田
-      polyline: [{
-        'points': [{
-          latitude: 39.909,
-          longitude: 116.39742 },
-        {
-          latitude: 39.968033,
-          longitude: 116.401244 }],
-
+        } }, { id: 2222, latitude: 37.448938, longitude: 121.468887, iconPath: '../../static/20190629154358.png', callout: { content: '地点2 ID:222', color: '#F76350', fontSize: 12 } }, { id: 3333, latitude: 37.443282, longitude: 121.449404, iconPath: '../../static/20190629154358.png', //定点图标
+        callout: { content: '地点3 ID:333', color: '#F76350', //点击定点弹出字体颜色
+          fontSize: 12 } }, { id: 4444, latitude: 37.438852, longitude: 121.433782, iconPath: '../../static/20190629154358.png', callout: { content: '地点4 ID:444', color: '#F76350', fontSize: 12 } }], //试验田
+      polyline: [{ 'points': [{ latitude: 39.909, longitude: 116.39742 }, { latitude: 39.968033, longitude: 116.401244 }],
         color: '#000000 ',
         width: 3 }]
 
@@ -184,26 +236,27 @@ var _default = { onReady: function onReady() {}, onLoad: function onLoad() {}, m
     };
   },
   computed: {
-    // coversAll() {
-    // 	return this.covers.filter(cover => cover.id === this.renderId)
-    // }
-    // 
+    coversAllChange: function coversAllChange() {var _this = this;
+      return this.covers.filter(function (cover) {return cover.id === _this.renderId;});
+    },
+
     coversAll: function coversAll() {
       return this.covers;
     } },
 
   methods: {
     loacalTitle: function loacalTitle(e) {
-      console.log('点击了气泡', " at pages\\map\\map.vue:152");
-      console.log(e, " at pages\\map\\map.vue:153");
-      console.log(e.detail.markerId, " at pages\\map\\map.vue:154");
-      this.localID = e.detail.markerId;
+      console.log('点击了气泡', " at pages\\map\\map.vue:198");
+      console.log(e, " at pages\\map\\map.vue:199");
+      console.log(e.detail.markerId, " at pages\\map\\map.vue:200");
+      // this.localID = e.detail.markerId;
       this.renderId = e.detail.markerId;
+      this.scrollShow = false;
     },
     mapAlert: function mapAlert() {
-      console.log('点击了地图', " at pages\\map\\map.vue:159");
+      console.log('点击了地图', " at pages\\map\\map.vue:206");
     },
-    goMap: function goMap(mapLocal) {var _this = this;
+    goMap: function goMap(mapLocal) {var _this2 = this;
       this.mapLatitude = mapLocal.latitude;
       this.mapLongitude = mapLocal.longitude;
       this.destination = mapLocal.callout.content;
@@ -216,7 +269,7 @@ var _default = { onReady: function onReady() {}, onLoad: function onLoad() {}, m
       _gcoord.default.GCJ02 // 目标坐标系
       );
 
-      console.log(123456, " at pages\\map\\map.vue:174");
+      console.log(123456, " at pages\\map\\map.vue:221");
 
       //调用手机导航
       uni.getLocation({
@@ -234,18 +287,18 @@ var _default = { onReady: function onReady() {}, onLoad: function onLoad() {}, m
           // 						const longitude = result[0];
 
 
-          var latitude = _this.mapLatitude;
-          var longitude = _this.mapLongitude;
-          var destination = _this.destination;
-          console.log(2222, " at pages\\map\\map.vue:195");
+          var latitude = _this2.mapLatitude;
+          var longitude = _this2.mapLongitude;
+          var destination = _this2.destination;
+          console.log(2222, " at pages\\map\\map.vue:242");
           uni.openLocation({
             // geocode:'true',
             name: destination,
-            address: 'lallaa大街',
+            // address: 'lallaa大街',
             latitude: latitude,
             longitude: longitude,
             success: function success() {
-              console.log('success', " at pages\\map\\map.vue:203");
+              console.log('success', " at pages\\map\\map.vue:250");
             } });
 
 
@@ -259,7 +312,7 @@ var _default = { onReady: function onReady() {}, onLoad: function onLoad() {}, m
           // });
         },
         fail: function fail(res) {
-          console.log(res, " at pages\\map\\map.vue:217");
+          console.log(res, " at pages\\map\\map.vue:264");
         } });
 
     } },

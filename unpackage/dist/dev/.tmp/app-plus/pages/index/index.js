@@ -8,7 +8,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
 //
 //
 //
@@ -31,7 +31,13 @@ var _default =
 
 
   },
-  methods: {} };exports.default = _default;
+  methods: {
+    gotoSearch: function gotoSearch() {
+      uni.navigateTo({
+        url: "/pages/searchPage/searchPage" });
+
+    } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]))
 
 /***/ }),
 
@@ -208,40 +214,39 @@ var _navbar = _interopRequireDefault(__webpack_require__(/*! ../../components/na
 
 
 var _swiperMade = _interopRequireDefault(__webpack_require__(/*! ../../components/swiperMade/swiperMade.vue */ "D:\\project\\yun\\components\\swiperMade\\swiperMade.vue"));
-var _picnews = _interopRequireDefault(__webpack_require__(/*! ../../components/picnews/picnews.vue */ "D:\\project\\yun\\components\\picnews\\picnews.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var Tabs = function Tabs() {return __webpack_require__.e(/*! import() | components/tabs/tabs */ "components/tabs/tabs").then(__webpack_require__.bind(null, /*! ../../components/tabs/tabs.vue */ "D:\\project\\yun\\components\\tabs\\tabs.vue"));};var TabPane = function TabPane() {return __webpack_require__.e(/*! import() | components/tabs/tabPane */ "components/tabs/tabPane").then(__webpack_require__.bind(null, /*! ../../components/tabs/tabPane.vue */ "D:\\project\\yun\\components\\tabs\\tabPane.vue"));};var TimeNews = function TimeNews() {return __webpack_require__.e(/*! import() | components/timeNews/timeNews */ "components/timeNews/timeNews").then(__webpack_require__.bind(null, /*! ../../components/timeNews/timeNews.vue */ "D:\\project\\yun\\components\\timeNews\\timeNews.vue"));};var _default =
-
-
-{
-  data: function data() {var _ref;
-    return {
-      title: 'Hello',
-      TabList: ['信息前沿', '文化服务', '普法服务', '文艺服务'],
-      current: 0,
-      swiperPic: [],
-
-      newsText: [(_ref = {
-        id: 1,
-        autor: '新华社',
-        title: '河口区美丽庭院创建活动如火如荼' }, _defineProperty(_ref, "autor",
-      '新华社'), _defineProperty(_ref, "time",
-      '2019-02-21'), _defineProperty(_ref, "simple",
-      '为加快推进乡村振兴战略深入实施，提升农村人居环境，自6月份'), _defineProperty(_ref, "text",
-      '<p>为加快推进乡村振兴战略深入实施，提升农村人居环境，自6月份，河口区各镇（街道）将“共建美丽庭院·助力乡村振兴”主题活动列入了各村“党员主题活动日”自选动作中。各镇、街道，区直部门单位积极行动，充分发挥党员的先锋带头作用，积极对接帮扶村，并结合实际开展工作，推动全区形成“美丽庭院”创建的良好氛围。</p> <p>新户镇</p><p>新户镇“绿野仙踪”乡村振兴示范片区积极行动，宣读《美丽庭院创建实施方案》，组织开展“党员率先垂范，签定承诺书”活动，集中观摩了“美丽庭院示范户”，共同推进以“每家每户 大美新户”为主题的美丽庭院创建工作开展。</p><p>义和镇</p><p>义和镇部分村积极开展“共建美丽庭院•助力乡村振兴”党员主题日活动。各村党员积极签订承诺书，严格按照 “干净、整齐、舒适、漂亮”四有标准，改善家居环境，让庭院灵动美丽。</p><p>河口街道</p><p>河口街道组织全体党员参与主题活动，每月走进一户困难家庭或老年人家庭，开展美化庭院大扫除，包括院内及室内。党员领导干部、妇联执委带头签订创建美丽庭院承诺书，明确分工，责任到人，做到创建美丽庭院家家知晓，美丽庭院人人创建。</p><p>六合街道</p><p>“创建一座美丽舒适的庭院，打造一个温馨宜居的家园。这是我们开展美丽庭院活动的初心和使命，也是我们参与乡村振兴战略的信心和承诺。”六合街道各村党员干部们带头许下“我践行，我承诺”的创建诺言，带动大家参与到美丽庭院的创建中来。</p><p>区直部门单位</p><p>河口公安分局、区畜牧局、区文旅局、区商务局等部门单位纷纷组织干部职工到下派帮扶村开展“共建美丽庭院 助力乡村振兴”志愿服务活动，赢得村民群众的一致好评。</p>'), _ref),
-
-
-      {
-        id: 2,
-        title: '河口区招商引资优惠奖励十条 ',
-        autor: '新华社',
-        time: '2019-03-05',
-        simple: '为加快推进乡村振兴战略深入实施，提升农村人居环境，自6月份，河口区各镇（街道）将“共建美丽庭院·助力乡村振兴',
-        text: '<p>为加快推进乡村振兴战略深入实施，提升农村人居环境，自6月份，河口区各镇（街道）将“共建美丽庭院·助力乡村振兴”主题活动列入了各村“党员主题活动日”自选动作中。各镇、街道，区直部门单位积极行动，充分发挥党员的先锋带头作用，积极对接帮扶村，并结合实际开展工作，推动全区形成“美丽庭院”创建的良好氛围。</p> <p>新户镇</p><p>新户镇“绿野仙踪”乡村振兴示范片区积极行动，宣读《美丽庭院创建实施方案》，组织开展“党员率先垂范，签定承诺书”活动，集中观摩了“美丽庭院示范户”，共同推进以“每家每户 大美新户”为主题的美丽庭院创建工作开展。</p><p>义和镇</p><p>义和镇部分村积极开展“共建美丽庭院•助力乡村振兴”党员主题日活动。各村党员积极签订承诺书，严格按照 “干净、整齐、舒适、漂亮”四有标准，改善家居环境，让庭院灵动美丽。</p><p>河口街道</p><p>河口街道组织全体党员参与主题活动，每月走进一户困难家庭或老年人家庭，开展美化庭院大扫除，包括院内及室内。党员领导干部、妇联执委带头签订创建美丽庭院承诺书，明确分工，责任到人，做到创建美丽庭院家家知晓，美丽庭院人人创建。</p><p>六合街道</p><p>“创建一座美丽舒适的庭院，打造一个温馨宜居的家园。这是我们开展美丽庭院活动的初心和使命，也是我们参与乡村振兴战略的信心和承诺。”六合街道各村党员干部们带头许下“我践行，我承诺”的创建诺言，带动大家参与到美丽庭院的创建中来。</p><p>区直部门单位</p><p>河口公安分局、区畜牧局、区文旅局、区商务局等部门单位纷纷组织干部职工到下派帮扶村开展“共建美丽庭院 助力乡村振兴”志愿服务活动，赢得村民群众的一致好评。</p>' },
-
-      {
-        id: 3,
-        title: '市督导组来我区督察中央生态环境保护监督整改工作',
-        autor: '新华社',
-        time: '2019-07-12',
+var _picnews = _interopRequireDefault(__webpack_require__(/*! ../../components/picnews/picnews.vue */ "D:\\project\\yun\\components\\picnews\\picnews.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+var Tabs = function Tabs() {return __webpack_require__.e(/*! import() | components/tabs/tabs */ "components/tabs/tabs").then(__webpack_require__.bind(null, /*! ../../components/tabs/tabs.vue */ "D:\\project\\yun\\components\\tabs\\tabs.vue"));};var TabPane = function TabPane() {return __webpack_require__.e(/*! import() | components/tabs/tabPane */ "components/tabs/tabPane").then(__webpack_require__.bind(null, /*! ../../components/tabs/tabPane.vue */ "D:\\project\\yun\\components\\tabs\\tabPane.vue"));};var TimeNews = function TimeNews() {return __webpack_require__.e(/*! import() | components/timeNews/timeNews */ "components/timeNews/timeNews").then(__webpack_require__.bind(null, /*! ../../components/timeNews/timeNews.vue */ "D:\\project\\yun\\components\\timeNews\\timeNews.vue"));};var _default = { data: function data() {return { title: 'Hello', TabList: ['信息前沿', '文化服务', '普法服务', '文艺服务'], current: 0, swiperPic: [], newsText: [{ id: 1, autor: '新华社', title: '河口区美丽庭院创建活动如火如荼', time: '2019-02-21', simple: '为加快推进乡村振兴战略深入实施，提升农村人居环境，自6月份', text: '<p>为加快推进乡村振兴战略深入实施，提升农村人居环境，自6月份，河口区各镇（街道）将“共建美丽庭院·助力乡村振兴”主题活动列入了各村“党员主题活动日”自选动作中。各镇、街道，区直部门单位积极行动，充分发挥党员的先锋带头作用，积极对接帮扶村，并结合实际开展工作，推动全区形成“美丽庭院”创建的良好氛围。</p> <p>新户镇</p><p>新户镇“绿野仙踪”乡村振兴示范片区积极行动，宣读《美丽庭院创建实施方案》，组织开展“党员率先垂范，签定承诺书”活动，集中观摩了“美丽庭院示范户”，共同推进以“每家每户 大美新户”为主题的美丽庭院创建工作开展。</p><p>义和镇</p><p>义和镇部分村积极开展“共建美丽庭院•助力乡村振兴”党员主题日活动。各村党员积极签订承诺书，严格按照 “干净、整齐、舒适、漂亮”四有标准，改善家居环境，让庭院灵动美丽。</p><p>河口街道</p><p>河口街道组织全体党员参与主题活动，每月走进一户困难家庭或老年人家庭，开展美化庭院大扫除，包括院内及室内。党员领导干部、妇联执委带头签订创建美丽庭院承诺书，明确分工，责任到人，做到创建美丽庭院家家知晓，美丽庭院人人创建。</p><p>六合街道</p><p>“创建一座美丽舒适的庭院，打造一个温馨宜居的家园。这是我们开展美丽庭院活动的初心和使命，也是我们参与乡村振兴战略的信心和承诺。”六合街道各村党员干部们带头许下“我践行，我承诺”的创建诺言，带动大家参与到美丽庭院的创建中来。</p><p>区直部门单位</p><p>河口公安分局、区畜牧局、区文旅局、区商务局等部门单位纷纷组织干部职工到下派帮扶村开展“共建美丽庭院 助力乡村振兴”志愿服务活动，赢得村民群众的一致好评。</p>' }, { id: 2, title: '河口区招商引资优惠奖励十条 ', autor: '新华社', time: '2019-03-05', simple: '为加快推进乡村振兴战略深入实施，提升农村人居环境，自6月份，河口区各镇（街道）将“共建美丽庭院·助力乡村振兴', text: '<p>为加快推进乡村振兴战略深入实施，提升农村人居环境，自6月份，河口区各镇（街道）将“共建美丽庭院·助力乡村振兴”主题活动列入了各村“党员主题活动日”自选动作中。各镇、街道，区直部门单位积极行动，充分发挥党员的先锋带头作用，积极对接帮扶村，并结合实际开展工作，推动全区形成“美丽庭院”创建的良好氛围。</p> <p>新户镇</p><p>新户镇“绿野仙踪”乡村振兴示范片区积极行动，宣读《美丽庭院创建实施方案》，组织开展“党员率先垂范，签定承诺书”活动，集中观摩了“美丽庭院示范户”，共同推进以“每家每户 大美新户”为主题的美丽庭院创建工作开展。</p><p>义和镇</p><p>义和镇部分村积极开展“共建美丽庭院•助力乡村振兴”党员主题日活动。各村党员积极签订承诺书，严格按照 “干净、整齐、舒适、漂亮”四有标准，改善家居环境，让庭院灵动美丽。</p><p>河口街道</p><p>河口街道组织全体党员参与主题活动，每月走进一户困难家庭或老年人家庭，开展美化庭院大扫除，包括院内及室内。党员领导干部、妇联执委带头签订创建美丽庭院承诺书，明确分工，责任到人，做到创建美丽庭院家家知晓，美丽庭院人人创建。</p><p>六合街道</p><p>“创建一座美丽舒适的庭院，打造一个温馨宜居的家园。这是我们开展美丽庭院活动的初心和使命，也是我们参与乡村振兴战略的信心和承诺。”六合街道各村党员干部们带头许下“我践行，我承诺”的创建诺言，带动大家参与到美丽庭院的创建中来。</p><p>区直部门单位</p><p>河口公安分局、区畜牧局、区文旅局、区商务局等部门单位纷纷组织干部职工到下派帮扶村开展“共建美丽庭院 助力乡村振兴”志愿服务活动，赢得村民群众的一致好评。</p>' }, { id: 3, title: '市督导组来我区督察中央生态环境保护监督整改工作', autor: '新华社', time: '2019-07-12',
         simple: '为加快推进乡村振兴战略深入实施，提升农村人居环境，自6月份，河口区各镇（街道）将“共建美丽庭院·助力乡村振',
         text: '<p>为加快推进乡村振兴战略深入实施，提升农村人居环境，自6月份，河口区各镇（街道）将“共建美丽庭院·助力乡村振兴”主题活动列入了各村“党员主题活动日”自选动作中。各镇、街道，区直部门单位积极行动，充分发挥党员的先锋带头作用，积极对接帮扶村，并结合实际开展工作，推动全区形成“美丽庭院”创建的良好氛围。</p> <p>新户镇</p><p>新户镇“绿野仙踪”乡村振兴示范片区积极行动，宣读《美丽庭院创建实施方案》，组织开展“党员率先垂范，签定承诺书”活动，集中观摩了“美丽庭院示范户”，共同推进以“每家每户 大美新户”为主题的美丽庭院创建工作开展。</p><p>义和镇</p><p>义和镇部分村积极开展“共建美丽庭院•助力乡村振兴”党员主题日活动。各村党员积极签订承诺书，严格按照 “干净、整齐、舒适、漂亮”四有标准，改善家居环境，让庭院灵动美丽。</p><p>河口街道</p><p>河口街道组织全体党员参与主题活动，每月走进一户困难家庭或老年人家庭，开展美化庭院大扫除，包括院内及室内。党员领导干部、妇联执委带头签订创建美丽庭院承诺书，明确分工，责任到人，做到创建美丽庭院家家知晓，美丽庭院人人创建。</p><p>六合街道</p><p>“创建一座美丽舒适的庭院，打造一个温馨宜居的家园。这是我们开展美丽庭院活动的初心和使命，也是我们参与乡村振兴战略的信心和承诺。”六合街道各村党员干部们带头许下“我践行，我承诺”的创建诺言，带动大家参与到美丽庭院的创建中来。</p><p>区直部门单位</p><p>河口公安分局、区畜牧局、区文旅局、区商务局等部门单位纷纷组织干部职工到下派帮扶村开展“共建美丽庭院 助力乡村振兴”志愿服务活动，赢得村民群众的一致好评。</p>' },
 
@@ -316,10 +321,9 @@ var _picnews = _interopRequireDefault(__webpack_require__(/*! ../../components/p
 
       dataType: 'json', //直接做了一次json.parse
       success: function success(res) {
-        console.log(res.data, " at pages\\index\\index.vue:146");
+        console.log(res.data, " at pages\\index\\index.vue:145");
         // result = JSON.parse(res.data) 
         _this.swiperPic = res.data;
-
       } });
 
 

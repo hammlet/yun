@@ -2,6 +2,6 @@
   "navigationStyle": "custom",
   "titleNView": false,
   "usingComponents": {
-    "swiper-made": "/components/swiperMade/swiperMade"
+    "navbar": "/components/navbar/navbar"
   }
 }

@@ -8,7 +8,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
 //
 //
 //
@@ -31,7 +31,13 @@ var _default =
 
 
   },
-  methods: {} };exports.default = _default;
+  methods: {
+    gotoSearch: function gotoSearch() {
+      uni.navigateTo({
+        url: "/pages/searchPage/searchPage" });
+
+    } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]))
 
 /***/ }),
 
@@ -44,8 +50,6 @@ var _default =
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
-
-
 
 
 
@@ -108,10 +112,10 @@ var _navbar = _interopRequireDefault(__webpack_require__(/*! ../../components/na
 //
 //
 //
-//
-//
 // import SearchBar from '../../components/searchBar/searchBar.vue'
-var _default = { data: function data() {return { searchData: '', message: [{ id: 1, autor: '小目标', logo: '../../static/icon/message/fileBox.png', text: '并向居民宣传普及常见病、多发病预防知识和科学处', date: '2019-03-14' }, { id: 2, autor: '您的发言', logo: '../../static/icon/message/cloud.png', text: '志愿者为义和镇寿光村居民现场提供心电图、血压', date: '2019-05-02' }, { id: 3, autor: '新邮件', logo: '../../static/icon/message/mail.png', text: '抽血检测、彩超等检查服务，理方式，向居民认真解读医疗保', date: '2019-04-18' }, { id: 4, autor: '小目标', logo: '../../static/icon/message/fileBox.png', text: '抽血检测、彩超等检查服务，理方式，向居民认真解读医疗保',
+var _default = { data: function data() {return { searchData: '', message: [{ id: 1, autor: '小目标', logo: '../../static/icon/message/fileBox.png', text: '并向居民宣传普及常见病、多发病预防知识和科学处', date: '2019-03-14' }, { id: 2, autor: '您的发言', logo: '../../static/icon/message/cloud.png', text: '志愿者为义和镇寿光村居民现场提供心电图、血压', date: '2019-05-02' }, { id: 3, autor: '新邮件', logo: '../../static/icon/message/mail.png', text: '抽血检测、彩超等检查服务，理方式，向居民认真解读医疗保', date: '2019-04-18' }, { id: 4, autor: '小目标',
+        logo: '../../static/icon/message/fileBox.png',
+        text: '抽血检测、彩超等检查服务，理方式，向居民认真解读医疗保',
         date: '2019-04-18' },
 
       {

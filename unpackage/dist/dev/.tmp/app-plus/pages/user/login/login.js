@@ -87,7 +87,6 @@
 
 
 
-
 {
   components: {
     cmdNavBar: cmdNavBar,
@@ -159,9 +158,9 @@
               */
     fnLogin: function fnLogin() {
       if (this.status) {
-        console.log(JSON.stringify(this.mobile), " at pages\\user\\login\\login.vue:152");
+        console.log(JSON.stringify(this.mobile), " at pages\\user\\login\\login.vue:151");
       } else {
-        console.log(JSON.stringify(this.account), " at pages\\user\\login\\login.vue:154");
+        console.log(JSON.stringify(this.account), " at pages\\user\\login\\login.vue:153");
       }
     },
     /**
